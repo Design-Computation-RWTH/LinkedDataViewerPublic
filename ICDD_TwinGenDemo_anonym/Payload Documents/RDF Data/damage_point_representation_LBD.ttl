@@ -1,0 +1,897 @@
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lbd: <https://linkebuildingdata.org/LBD#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix smls: <https://w3id.org/def/smls-owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix inst: <https://www.asbingowl.org/TwinGenDemo/BW000/DamagePoints#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+inst:descriptionIfcRoot_a7063bc1-125b-11ed-b8a7-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Stahl_abwitterndeBeschichtung-UntergrundRostig\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:buildingelement_a878bffa-125b-11ed-bdd1-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a878bffa-125b-11ed-bdd1-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a878bffa-125b-11ed-bdd1-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a878bffa-125b-11ed-bdd1-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_a7b95b6b-125b-11ed-85eb-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Stahl_abwitterndeBeschichtung-UntergrundRostig\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:buildingelement_a674c562-125b-11ed-a260-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a674c562-125b-11ed-a260-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a674c562-125b-11ed-a260-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a674c562-125b-11ed-a260-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a5b2aea1-125b-11ed-8a87-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9789338_SchadenObjekt_2" .
+
+inst:nameIfcRoot_a49c0f6c-125b-11ed-ad69-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1259442_SchadenObjekt" .
+
+inst:nameIfcRoot_a6608035-125b-11ed-81dd-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5173251_SchadenObjekt" .
+
+inst:globalIdIfcRoot_a6b35e2d-125b-11ed-9678-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2ciruj4biHxPPul1UuLOJe" .
+
+inst:descriptionIfcRoot_a6608035-125b-11ed-81dd-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Risse_gerissen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_haeufig" .
+
+inst:globalIdIfcRoot_a6608035-125b-11ed-81dd-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cO80r4biHxO7Tl1UuLOJe" .
+
+inst:descriptionIfcRoot_a49c0f6c-125b-11ed-ad69-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_schadhaft\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_vereinzelt" .
+
+inst:buildingelement_a59dd559-125b-11ed-840a-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a59dd559-125b-11ed-840a-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a59dd559-125b-11ed-840a-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a59dd559-125b-11ed-840a-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a553b8b9-125b-11ed-982c-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a553b8b9-125b-11ed-982c-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a553b8b9-125b-11ed-982c-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a553b8b9-125b-11ed-982c-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a674c562-125b-11ed-a260-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5590723_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_a878bffa-125b-11ed-bdd1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2eUB$w4biHxRtHl1UuLOJe" .
+
+inst:descriptionIfcRoot_a878bffa-125b-11ed-bdd1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_verstopft\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Basis 555,10" .
+
+inst:buildingelement_a4cc32af-125b-11ed-91ee-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a4cc32af-125b-11ed-91ee-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a4cc32af-125b-11ed-91ee-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a4cc32af-125b-11ed-91ee-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_a674c562-125b-11ed-a260-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_beschaedigtDurchFremdeinwirkung\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_eineStelle" .
+
+inst:longNameIfcSpatialElement_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Basis 555,10" .
+
+inst:buildingelement_a5c871a9-125b-11ed-9aea-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a5c871a9-125b-11ed-9aea-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a5c871a9-125b-11ed-9aea-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a5c871a9-125b-11ed-9aea-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a59dd559-125b-11ed-840a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1397923_SchadenObjekt" .
+
+inst:nameIfcRoot_a553b8b9-125b-11ed-982c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5476084_SchadenObjekt" .
+
+inst:buildingelement_a7f6a474-125b-11ed-9d83-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_a7f6a474-125b-11ed-9d83-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_a7f6a474-125b-11ed-9d83-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_a5e250a5-125b-11ed-81ee-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a5e250a5-125b-11ed-81ee-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a5e250a5-125b-11ed-81ee-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a5e250a5-125b-11ed-81ee-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a74c2cb2-125b-11ed-bc42-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a74c2cb2-125b-11ed-bc42-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a74c2cb2-125b-11ed-bc42-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a74c2cb2-125b-11ed-bc42-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a56b4f40-125b-11ed-b0b1-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a56b4f40-125b-11ed-b0b1-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a56b4f40-125b-11ed-b0b1-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a56b4f40-125b-11ed-b0b1-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a474f329-125b-11ed-8c04-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a474f329-125b-11ed-8c04-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a474f329-125b-11ed-8c04-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a474f329-125b-11ed-8c04-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_a59dd559-125b-11ed-840a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Material_Frostschaden\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:buildingelement_a51185c8-125b-11ed-b5ab-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a51185c8-125b-11ed-b5ab-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a51185c8-125b-11ed-b5ab-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a51185c8-125b-11ed-b5ab-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a553b8b9-125b-11ed-982c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2bKxYv4biHxPWil1UuLOJe" .
+
+inst:descriptionIfcRoot_a553b8b9-125b-11ed-982c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_fehlt\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_grosseSchadensausbreitung_durchgehend" .
+
+inst:buildingelement_a71dd3d0-125b-11ed-8604-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a71dd3d0-125b-11ed-8604-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a71dd3d0-125b-11ed-8604-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a71dd3d0-125b-11ed-8604-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a5c871a9-125b-11ed-9aea-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "8241648_SchadenObjekt_2" .
+
+inst:globalIdIfcRoot_a4cc32af-125b-11ed-91ee-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2ap3Al4biHxP7kl1UuLOJe" .
+
+inst:descriptionIfcRoot_a4cc32af-125b-11ed-91ee-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_bewachsen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_beginnend" .
+
+inst:nameIfcRoot_a74c2cb2-125b-11ed-bc42-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7623909_SchadenObjekt_1" .
+
+inst:descriptionIfcRoot_a5c871a9-125b-11ed-9aea-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_bewachsen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_beginnend" .
+
+inst:nameIfcRoot_a7f6a474-125b-11ed-9d83-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7993913_SchadenObjekt" .
+
+inst:buildingelement_a4b5ee58-125b-11ed-b82f-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a4b5ee58-125b-11ed-b82f-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a4b5ee58-125b-11ed-b82f-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a4b5ee58-125b-11ed-b82f-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a56b4f40-125b-11ed-b0b1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6392356_SchadenObjekt_1" .
+
+inst:buildingelement_a6ef7157-125b-11ed-bcfa-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a6ef7157-125b-11ed-bcfa-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a6ef7157-125b-11ed-bcfa-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a6ef7157-125b-11ed-bcfa-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a5e250a5-125b-11ed-81ee-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7497924_SchadenObjekt_2" .
+
+inst:globalIdIfcRoot_a5c871a9-125b-11ed-9aea-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2bo76f4biHxPhgl1UuLOJe" .
+
+inst:nameIfcRoot_a474f329-125b-11ed-8c04-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6037167_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_a761b46e-125b-11ed-a8ef-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2dORHk4biHxQZll1UuLOJe" .
+
+inst:globalIdIfcRoot_a7f6a474-125b-11ed-9d83-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2dzgHq4biHxPs3l1UuLOJe" .
+
+inst:descriptionIfcRoot_a74c2cb2-125b-11ed-bc42-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Material_Fehlstelle\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_eineStelle" .
+
+inst:descriptionIfcRoot_a56b4f40-125b-11ed-b0b1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Ausmass_angerostet\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:descriptionIfcRoot_a5e250a5-125b-11ed-81ee-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Material_abgeplatzt\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_vereinzelt" .
+
+inst:globalIdIfcRoot_a74c2cb2-125b-11ed-bc42-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2dJ2oo4biHxRn2l1UuLOJe" .
+
+inst:globalIdIfcRoot_a474f329-125b-11ed-8c04-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2aTFCf4biHxOm4l1UuLOJe" .
+
+inst:nameIfcRoot_a71dd3d0-125b-11ed-8604-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5590723_SchadenObjekt_2" .
+
+inst:descriptionIfcRoot_a474f329-125b-11ed-8c04-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_abgeblaettert\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:buildingelement_a61e34f7-125b-11ed-abbd-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a61e34f7-125b-11ed-abbd-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a61e34f7-125b-11ed-abbd-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a61e34f7-125b-11ed-abbd-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a51185c8-125b-11ed-b5ab-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2b4ON84biHxRMhl1UuLOJe" .
+
+inst:descriptionIfcRoot_a51185c8-125b-11ed-b5ab-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Ausmass_angerostet\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_stellenweise" .
+
+inst:buildingelement_a5ffffc5-125b-11ed-93a4-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a5ffffc5-125b-11ed-93a4-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a5ffffc5-125b-11ed-93a4-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a5ffffc5-125b-11ed-93a4-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a71dd3d0-125b-11ed-8604-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2d7TFG4biHxOO4l1UuLOJe" .
+
+inst:nameIfcRoot_a4b5ee58-125b-11ed-b82f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "4756257_SchadenObjekt" .
+
+inst:descriptionIfcRoot_a71dd3d0-125b-11ed-8604-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_beschaedigtDurchFremdeinwirkung\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_eineStelle" .
+
+inst:nameIfcRoot_a7e1efea-125b-11ed-a1d6-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "4525177_SchadenObjekt_1" .
+
+inst:buildingelement_a77c27f1-125b-11ed-8a8c-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a77c27f1-125b-11ed-8a8c-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a77c27f1-125b-11ed-8a8c-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a77c27f1-125b-11ed-8a8c-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a4b5ee58-125b-11ed-b82f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2ajUvO4biHxRWll1UuLOJe" .
+
+inst:buildingelement_a836dc34-125b-11ed-a266-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a836dc34-125b-11ed-a266-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a836dc34-125b-11ed-a266-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a836dc34-125b-11ed-a266-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_a4b5ee58-125b-11ed-b82f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Material_abgeplatzt\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_vereinzelt" .
+
+inst:site_49c24f44-9e59-46e7-a811-220d4ae773bc
+        bot:hasBuilding            inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf ;
+        rdf:type                   bot:Site ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        props:nameIfcRoot          inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        props:refElevationIfcSite  inst:refElevationIfcSite_49c24f44-9e59-46e7-a811-220d4ae773bc .
+
+inst:globalIdIfcRoot_a6ef7157-125b-11ed-bcfa-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cxt5N4biHxRpwl1UuLOJe" .
+
+inst:descriptionIfcRoot_a6ef7157-125b-11ed-bcfa-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_Schmutzablagerung\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:nameIfcRoot_a61e34f7-125b-11ed-abbd-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9375066_SchadenObjekt_1" .
+
+inst:nameIfcRoot_a735b458-125b-11ed-bf0b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "4156921_SchadenObjekt_2" .
+
+inst:nameIfcRoot_a5ffffc5-125b-11ed-93a4-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6750073_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_a5379162-125b-11ed-8313-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2bDv5Y4biHxOCJl1UuLOJe" .
+
+inst:globalIdIfcRoot_a61e34f7-125b-11ed-abbd-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2c7ZJt4biHxQkzl1UuLOJe" .
+
+inst:descriptionIfcRoot_a61e34f7-125b-11ed-abbd-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Material_Kiesnest_Grobkornstelle\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_vereinzelt" .
+
+inst:buildingelement_a790f4a6-125b-11ed-b90c-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a790f4a6-125b-11ed-b90c-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a790f4a6-125b-11ed-b90c-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a790f4a6-125b-11ed-b90c-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a5ffffc5-125b-11ed-93a4-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2b$$$54biHxPEal1UuLOJe" .
+
+inst:descriptionIfcRoot_a5ffffc5-125b-11ed-93a4-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_Schmutzablagerung\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:nameIfcRoot_a7063bc1-125b-11ed-b8a7-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7225812_SchadenObjekt" .
+
+inst:nameIfcRoot_a836dc34-125b-11ed-a266-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9653659_SchadenObjekt_1" .
+
+inst:buildingelement_a6b35e2d-125b-11ed-9678-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a6b35e2d-125b-11ed-9678-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a6b35e2d-125b-11ed-9678-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a6b35e2d-125b-11ed-9678-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a77c27f1-125b-11ed-8a8c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2dV2Vn4biHxOgCl1UuLOJe" .
+
+inst:descriptionIfcRoot_a77c27f1-125b-11ed-8a8c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Risse_gerissen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_stellenweise" .
+
+inst:globalIdIfcRoot_a836dc34-125b-11ed-a266-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2eDjmq4biHxQ9cl1UuLOJe" .
+
+inst:descriptionIfcRoot_a836dc34-125b-11ed-a266-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Wasserschaden_ausgewaschen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_eineStelle" .
+
+inst:nameIfcRoot_a790f4a6-125b-11ed-b90c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2684252_SchadenObjekt" .
+
+inst:globalIdIfcRoot_a586b3aa-125b-11ed-8e3a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2bXhEg4biHxOuwl1UuLOJe" .
+
+inst:nameIfcRoot_a6b35e2d-125b-11ed-9678-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9383952_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8WrAvtEy" .
+
+inst:globalIdIfcRoot_a80b6078-125b-11ed-a1c7-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2e2s1u4biHxQ77l1UuLOJe" .
+
+inst:globalIdIfcRoot_a790f4a6-125b-11ed-b90c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2daFIc4biHxRaCl1UuLOJe" .
+
+inst:descriptionIfcRoot_a790f4a6-125b-11ed-b90c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Material_abgeplatzt\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_eineStelle" .
+
+inst:globalIdIfcRoot_a6dae5df-125b-11ed-9e16-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cskNV4biHxPuMl1UuLOJe" .
+
+inst:descriptionIfcRoot_a6b35e2d-125b-11ed-9678-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Risse_gerissen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_stellenweise" .
+
+inst:nameIfcRoot_a878bffa-125b-11ed-bdd1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3388340_SchadenObjekt" .
+
+inst:buildingelement_a5b2aea1-125b-11ed-8a87-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a5b2aea1-125b-11ed-8a87-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a5b2aea1-125b-11ed-8a87-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a5b2aea1-125b-11ed-8a87-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a7a53639-125b-11ed-abf0-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a7a53639-125b-11ed-abf0-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a7a53639-125b-11ed-abf0-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a7a53639-125b-11ed-abf0-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a64b7a60-125b-11ed-b4ba-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a64b7a60-125b-11ed-b4ba-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a64b7a60-125b-11ed-b4ba-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a64b7a60-125b-11ed-b4ba-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a8212c41-125b-11ed-a5d8-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a8212c41-125b-11ed-a5d8-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a8212c41-125b-11ed-a5d8-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a8212c41-125b-11ed-a5d8-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a7b95b6b-125b-11ed-85eb-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2dkLjh4biHxONhl1UuLOJe" .
+
+inst:buildingelement_a862a120-125b-11ed-8689-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_a862a120-125b-11ed-8689-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_a862a120-125b-11ed-8689-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:storey_49c24f44-9e59-46e7-a811-220db5188ac1
+        bot:containsElement        inst:buildingelement_a836dc34-125b-11ed-a266-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a84ca498-125b-11ed-bd58-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a6608035-125b-11ed-81dd-bc17b85584e8 ;
+        props:objectTypeIfcObject  inst:objectTypeIfcObject_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_a74c2cb2-125b-11ed-bc42-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a77c27f1-125b-11ed-8a8c-bc17b85584e8 ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_a64b7a60-125b-11ed-b4ba-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a8212c41-125b-11ed-a5d8-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a862a120-125b-11ed-8689-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a63607aa-125b-11ed-8aae-bc17b85584e8 ;
+        rdf:type                   bot:Storey ;
+        props:elevationIfcBuildingStorey  inst:elevationIfcBuildingStorey_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_a7cda085-125b-11ed-954c-bc17b85584e8 ;
+        props:longNameIfcSpatialElement  inst:longNameIfcSpatialElement_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_a790f4a6-125b-11ed-b90c-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a761b46e-125b-11ed-a8ef-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a56b4f40-125b-11ed-b0b1-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a59dd559-125b-11ed-840a-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a6ef7157-125b-11ed-bcfa-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a553b8b9-125b-11ed-982c-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a5b2aea1-125b-11ed-8a87-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a51185c8-125b-11ed-b5ab-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a49c0f6c-125b-11ed-ad69-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a69f08ee-125b-11ed-9f03-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a878bffa-125b-11ed-bdd1-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a7f6a474-125b-11ed-9d83-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a4cc32af-125b-11ed-91ee-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a474f329-125b-11ed-8c04-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a735b458-125b-11ed-bf0b-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a5379162-125b-11ed-8313-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a4ef9617-125b-11ed-bb01-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a4b5ee58-125b-11ed-b82f-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a586b3aa-125b-11ed-8e3a-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a5e250a5-125b-11ed-81ee-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a7e1efea-125b-11ed-a1d6-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a61e34f7-125b-11ed-abbd-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a6c716b2-125b-11ed-98ca-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a6dae5df-125b-11ed-9e16-bc17b85584e8 ;
+        props:nameIfcRoot          inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_a6b35e2d-125b-11ed-9678-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a68a22d7-125b-11ed-8257-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a7a53639-125b-11ed-abf0-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a674c562-125b-11ed-a260-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a80b6078-125b-11ed-a1c7-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a7063bc1-125b-11ed-b8a7-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a5c871a9-125b-11ed-9aea-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a7b95b6b-125b-11ed-85eb-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a5ffffc5-125b-11ed-93a4-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a71dd3d0-125b-11ed-8604-bc17b85584e8 .
+
+inst:nameIfcRoot_a7a53639-125b-11ed-abf0-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6782285_SchadenObjekt" .
+
+inst:nameIfcRoot_a64b7a60-125b-11ed-b4ba-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9168947_SchadenObjekt" .
+
+inst:buildingelement_a69f08ee-125b-11ed-9f03-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a69f08ee-125b-11ed-9f03-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a69f08ee-125b-11ed-9f03-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a69f08ee-125b-11ed-9f03-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a761b46e-125b-11ed-a8ef-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a761b46e-125b-11ed-a8ef-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a761b46e-125b-11ed-a8ef-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a761b46e-125b-11ed-a8ef-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_a7a53639-125b-11ed-abf0-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_schadhaft\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_grosseSchadensausbreitung_durchgehend" .
+
+inst:globalIdIfcRoot_a5b2aea1-125b-11ed-8a87-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2bigwX4biHxOg7l1UuLOJe" .
+
+inst:descriptionIfcRoot_a5b2aea1-125b-11ed-8a87-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Ausmass_angerostet\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_stellenweise" .
+
+inst:globalIdIfcRoot_a7a53639-125b-11ed-abf0-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2dfJOv4biHxQlml1UuLOJe" .
+
+inst:globalIdIfcRoot_a49c0f6c-125b-11ed-ad69-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2ad0zi4biHxQrfl1UuLOJe" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8WrAvtE$" .
+
+inst:globalIdIfcRoot_a64b7a60-125b-11ed-b4ba-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cItfW4biHxRIwl1UuLOJe" .
+
+inst:descriptionIfcRoot_a64b7a60-125b-11ed-b4ba-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_nicht_gesichert\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_grosseSchadensausbreitung_durchgehend" .
+
+inst:nameIfcRoot_a8212c41-125b-11ed-a5d8-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1259442_SchadenObjekt" .
+
+inst:nameIfcRoot_a4cc32af-125b-11ed-91ee-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "8241648_SchadenObjekt_1" .
+
+inst:buildingelement_a68a22d7-125b-11ed-8257-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a68a22d7-125b-11ed-8257-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a68a22d7-125b-11ed-8257-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a68a22d7-125b-11ed-8257-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a862a120-125b-11ed-8689-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3236107_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_a8212c41-125b-11ed-a5d8-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2e8In14biHxQNOl1UuLOJe" .
+
+inst:descriptionIfcRoot_a8212c41-125b-11ed-a5d8-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_schadhaft\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_vereinzelt" .
+
+inst:nameIfcRoot_a69f08ee-125b-11ed-9f03-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9789338_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_a862a120-125b-11ed-8689-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2eOg4W4biHxOQ9l1UuLOJe" .
+
+inst:buildingelement_a63607aa-125b-11ed-8aae-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a63607aa-125b-11ed-8aae-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a63607aa-125b-11ed-8aae-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a63607aa-125b-11ed-8aae-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a674c562-125b-11ed-a260-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cTCLY4biHxQ9Wl1UuLOJe" .
+
+inst:nameIfcRoot_a761b46e-125b-11ed-a8ef-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9789338_SchadenObjekt_2" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8Wsr68h1" .
+
+inst:descriptionIfcRoot_a69f08ee-125b-11ed-9f03-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Ausmass_angerostet\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_stellenweise" .
+
+inst:nameIfcRoot_a51185c8-125b-11ed-b5ab-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9789338_SchadenObjekt_1" .
+
+inst:descriptionIfcRoot_a761b46e-125b-11ed-a8ef-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Ausmass_angerostet\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_stellenweise" .
+
+inst:globalIdIfcRoot_a69f08ee-125b-11ed-9f03-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cdmZk4biHxPy3l1UuLOJe" .
+
+inst:nameIfcRoot_a68a22d7-125b-11ed-8257-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "4156921_SchadenObjekt_1" .
+
+inst:buildingelement_a5379162-125b-11ed-8313-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a5379162-125b-11ed-8313-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a5379162-125b-11ed-8313-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a5379162-125b-11ed-8313-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a59dd559-125b-11ed-840a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2bdTLP4biHxOGAl1UuLOJe" .
+
+inst:globalIdIfcRoot_a68a22d7-125b-11ed-8257-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cYYBN4biHxO9Nl1UuLOJe" .
+
+inst:descriptionIfcRoot_a68a22d7-125b-11ed-8257-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_Graffiti\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_stellenweise" .
+
+inst:nameIfcRoot_a63607aa-125b-11ed-8aae-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3947832_SchadenObjekt_1" .
+
+inst:buildingelement_a4ef9617-125b-11ed-bb01-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a4ef9617-125b-11ed-bb01-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a4ef9617-125b-11ed-bb01-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a4ef9617-125b-11ed-bb01-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a7cda085-125b-11ed-954c-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a7cda085-125b-11ed-954c-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a7cda085-125b-11ed-954c-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a7cda085-125b-11ed-954c-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a6ef7157-125b-11ed-bcfa-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6750073_SchadenObjekt_2" .
+
+inst:globalIdIfcRoot_a63607aa-125b-11ed-8aae-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cDWUg4biHxOgkl1UuLOJe" .
+
+inst:descriptionIfcRoot_a63607aa-125b-11ed-8aae-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Risse_gerissen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_haeufig" .
+
+inst:refElevationIfcSite_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0."^^xsd:double .
+
+inst:nameIfcRoot_a5379162-125b-11ed-8313-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3460772_SchadenObjekt" .
+
+inst:objectTypeIfcObject_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Ebene:Ebene 1" .
+
+inst:buildingelement_a7e1efea-125b-11ed-a1d6-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a7e1efea-125b-11ed-a1d6-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a7e1efea-125b-11ed-a1d6-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a7e1efea-125b-11ed-a1d6-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:elevationIfcBuildingStorey_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0."^^xsd:double .
+
+inst:buildingelement_a586b3aa-125b-11ed-8e3a-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a586b3aa-125b-11ed-8e3a-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a586b3aa-125b-11ed-8e3a-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a586b3aa-125b-11ed-8e3a-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a4ef9617-125b-11ed-bb01-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7497924_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_a56b4f40-125b-11ed-b0b1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2bQqz04biHxR2nl1UuLOJe" .
+
+inst:globalIdIfcRoot_a5e250a5-125b-11ed-81ee-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2bub2b4biHxO7kl1UuLOJe" .
+
+inst:buildingelement_a80b6078-125b-11ed-a1c7-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a80b6078-125b-11ed-a1c7-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a80b6078-125b-11ed-a1c7-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a80b6078-125b-11ed-a1c7-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a7cda085-125b-11ed-954c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5872311_SchadenObjekt" .
+
+inst:descriptionIfcRoot_a5379162-125b-11ed-8313-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Risse_rissig\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_vereinzelt" .
+
+inst:buildingelement_a84ca498-125b-11ed-bd58-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a84ca498-125b-11ed-bd58-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a84ca498-125b-11ed-bd58-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a84ca498-125b-11ed-bd58-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a735b458-125b-11ed-bf0b-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a735b458-125b-11ed-bf0b-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a735b458-125b-11ed-bf0b-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a735b458-125b-11ed-bf0b-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a77c27f1-125b-11ed-8a8c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9383952_SchadenObjekt_2" .
+
+inst:globalIdIfcRoot_a4ef9617-125b-11ed-bb01-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2axvON4biHxRi1l1UuLOJe" .
+
+inst:descriptionIfcRoot_a4ef9617-125b-11ed-bb01-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Material_abgeplatzt\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_vereinzelt" .
+
+inst:descriptionIfcRoot_a7cda085-125b-11ed-954c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_nicht_verschlossen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:buildingelement_a6dae5df-125b-11ed-9e16-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a6dae5df-125b-11ed-9e16-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a6dae5df-125b-11ed-9e16-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a6dae5df-125b-11ed-9e16-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a7cda085-125b-11ed-954c-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2dpQ254biHxPLCl1UuLOJe" .
+
+inst:buildingelement_a6c716b2-125b-11ed-98ca-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a6c716b2-125b-11ed-98ca-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a6c716b2-125b-11ed-98ca-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a6c716b2-125b-11ed-98ca-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a586b3aa-125b-11ed-8e3a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5587413_SchadenObjekt_1" .
+
+inst:buildingelement_a7063bc1-125b-11ed-b8a7-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a7063bc1-125b-11ed-b8a7-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a7063bc1-125b-11ed-b8a7-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a7063bc1-125b-11ed-b8a7-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Default" .
+
+inst:nameIfcRoot_a80b6078-125b-11ed-a1c7-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7221687_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_a7e1efea-125b-11ed-a1d6-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2duU$g4biHxQ7Ml1UuLOJe" .
+
+inst:descriptionIfcRoot_a7e1efea-125b-11ed-a1d6-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Wasserschaden_feuchteStelle\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_eineStelle" .
+
+inst:buildingelement_a7b95b6b-125b-11ed-85eb-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a7b95b6b-125b-11ed-85eb-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a7b95b6b-125b-11ed-85eb-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a7b95b6b-125b-11ed-85eb-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a84ca498-125b-11ed-bd58-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9018781_SchadenObjekt" .
+
+inst:descriptionIfcRoot_a586b3aa-125b-11ed-8e3a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_fehlt\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_eineStelle" .
+
+inst:nameIfcRoot_a6dae5df-125b-11ed-9e16-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7614202_SchadenObjekt_1" .
+
+inst:descriptionIfcRoot_a80b6078-125b-11ed-a1c7-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_Schmutzablagerung\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:nameIfcRoot_a6c716b2-125b-11ed-98ca-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1644144_SchadenObjekt_1" .
+
+inst:descriptionIfcRoot_a84ca498-125b-11ed-bd58-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Risse_mitAussinterung\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf
+        bot:hasStorey          inst:storey_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        rdf:type               bot:Building ;
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf .
+
+inst:globalIdIfcRoot_a84ca498-125b-11ed-bd58-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2eJAIO4biHxRrOl1UuLOJe" .
+
+inst:globalIdIfcRoot_a735b458-125b-11ed-bf0b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2dDRHO4biHxRyBl1UuLOJe" .
+
+inst:descriptionIfcRoot_a735b458-125b-11ed-bf0b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Allgemein_Graffiti\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_stellenweise" .
+
+inst:descriptionIfcRoot_a6dae5df-125b-11ed-9e16-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Material_Kiesnest_Grobkornstelle\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_kleineSchadensausbreitung_eineStelle" .
+
+inst:descriptionIfcRoot_a6c716b2-125b-11ed-98ca-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Damage Type: https://w3id.org/asbingowl/keys#ArtSchaden_Risse_gerissen\\X2\\000A\\X0\\Damage Size: https://w3id.org/asbingowl/keys#AllgemeineMengenangabeSchaden_mittlereSchadensausbreitung_mehrfach" .
+
+inst:globalIdIfcRoot_a6c716b2-125b-11ed-98ca-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2cnnQo4biHxPZAl1UuLOJe" .
+
+inst:buildingelement_a6608035-125b-11ed-81dd-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a6608035-125b-11ed-81dd-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a6608035-125b-11ed-81dd-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a6608035-125b-11ed-81dd-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_a49c0f6c-125b-11ed-ad69-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a49c0f6c-125b-11ed-ad69-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a49c0f6c-125b-11ed-ad69-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a49c0f6c-125b-11ed-ad69-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_a7b95b6b-125b-11ed-85eb-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7225812_SchadenObjekt" .
+
+inst:globalIdIfcRoot_a7063bc1-125b-11ed-b8a7-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2d1Zl14biHxRYdl1UuLOJe" .

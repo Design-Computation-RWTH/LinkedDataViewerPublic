@@ -1,0 +1,1495 @@
+@prefix ct: <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#> .
+@prefix index: <https://asbingowl.org/TwinGenDemo/index#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://asbingowl.org/TwinGenDemo/index> a owl:Ontology ;
+    owl:imports <https://standards.iso.org/iso/21597/-1/ed-1/en/Container> .
+
+index:529b3d44-3a5a-45b5-9231-4542b75fc78f a ct:ContainerDescription ;
+    owl:imports <https://standards.iso.org/iso/21597/-1/ed-1/en/Container> ;
+    ct:conformanceIndicator "ICDD-Part1-Container" ;
+    ct:containsDocument index:06d961d7-3d35-48dd-895e-e6a4be4e1f89,
+        index:072213e6-1c5b-4a90-ad45-85fd3cf96754,
+        index:08fc2f1a-353d-4537-949c-0407bd37457f,
+        index:0960dad8-42ef-4554-871c-c3a8f2095466,
+        index:1009e9ce-381e-489e-8bef-704e88050d5f,
+        index:101ad627-0df7-439b-a611-72ed6e3ad145,
+        index:10299d8e-0561-49aa-91e0-ab4b11f470e0,
+        index:11e375d7-9da7-4d2b-92c7-76587daa4527,
+        index:12f00dc8-234d-4252-a871-98a231f0dcb0,
+        index:1353e24f-7135-4111-afa3-7dd0e7fdec4c,
+        index:18d5a10f-951b-445e-9513-0f2b7ceabc5c,
+        index:1900a3d5-80bc-4739-a3fa-4ee41e5692d5,
+        index:1a0a6ab8-cecc-4c26-b245-522b0abb99cc,
+        index:247744dc-20ae-4796-9e4a-c5e3fc49b33c,
+        index:247aa1f2-b805-494f-9189-8bb84c0e8434,
+        index:24ee0b02-f338-4750-b7cc-e2a070302ba9,
+        index:283e2364-1854-4af0-ab79-c119019e8255,
+        index:29ee42fc-bf8e-4b74-a3e4-d0e45bf2ac05,
+        index:2cfc7556-b68f-417d-be43-39693e2dd71b,
+        index:2f9ab4d5-cae5-42c1-8fca-4157d6cc391a,
+        index:3299cda0-3e11-4f36-add4-21da13bc930b,
+        index:3bc49c35-9cc8-4ca2-81dc-6ebf697755f6,
+        index:3e849457-d3e2-4b99-96d4-74182075d48a,
+        index:3f0ff5a3-2068-4348-bc54-31e63f3d7d0e,
+        index:3f134ec3-d9a3-49b1-9bcb-5d6281a5e8fd,
+        index:3fc59297-b73c-471f-b3bb-a31d6bc23710,
+        index:4525e0b2-1b26-4ce0-b284-0411d9e8ffff,
+        index:487a7632-f92b-43cd-bb9e-0075b27b4d60,
+        index:52e23286-800f-4a60-8ce4-8c00d24b983d,
+        index:535318a4-39a2-47e3-b4c5-6d0a505c78fa,
+        index:5458a077-23bc-461c-9b79-31ea32e89ee9,
+        index:561da302-03b7-4eb3-89fa-e2a2aae9f740,
+        index:56542833-dd12-4129-82c3-fe48af331738,
+        index:568e4244-5976-46d3-b885-f877c8480a57,
+        index:5693662e-887b-49f4-ad65-5465742a10b4,
+        index:58886a67-9304-41de-be94-71175f1a5398,
+        index:58a8327a-8be5-4e27-9286-2131688b2a60,
+        index:59865df2-19fe-40e2-b1b5-3541e4bd5fe8,
+        index:624d698f-afcd-4e87-b3ca-7e90a5275fdb,
+        index:62e35b8e-44fd-4b20-acbe-4420a3b433c7,
+        index:64b96ce1-f13f-4378-bce5-e88801edce4c,
+        index:66553e5e-d354-403d-b3d9-6e0c8031e3ce,
+        index:66fe86ca-d061-4d63-9d7e-48b6aaf0e475,
+        index:69158ee0-beea-4be6-a67a-17a614dba018,
+        index:6945b836-d616-415d-a588-c6f77276b739,
+        index:6b566171-2856-46cb-95f5-354d28012f93,
+        index:704b4550-3c7a-48b5-bf82-5aba29f1de95,
+        index:7245886f-ad87-4043-b51d-a9fb53b34e8a,
+        index:726bf3e6-0aa4-4b9e-821c-86e57688daab,
+        index:753d847e-9d19-4a2d-b6bb-f7986a8a9fcf,
+        index:7684a26a-d40b-4830-8e12-464237c3a0b8,
+        index:796bdc30-047f-4419-9c68-fd941e4a70af,
+        index:7a3407e6-9cca-4be4-8312-d40b159613ee,
+        index:7bbdb4db-8f36-478d-8e91-c0336337b790,
+        index:7bdc0176-1fed-48fd-b8a1-d112cba233ab,
+        index:7ceadd46-ae85-4e92-834e-2793431d2134,
+        index:7e68c0aa-96e2-4566-8bc4-cb7449f4fd3e,
+        index:7ecbf39c-8349-4a85-a4a1-d3558dcf2e7a,
+        index:86f67870-8184-47e2-b5a1-cf869c22dec5,
+        index:88ce4c52-db34-4677-8440-95fb0acd58d7,
+        index:88d30d66-f43b-431e-9a8e-603c949c3a6a,
+        index:8bd81177-bc76-4c58-8e4d-2409d511e090,
+        index:8c91f63f-19b9-48c5-8f56-45f80ec58c47,
+        index:8d2542b7-751c-4802-b570-1a014180138c,
+        index:8d8a6cb3-76bc-4a58-ba89-3f1e5898aa2e,
+        index:92a450f1-d541-43d7-b13b-f17ff8b31afe,
+        index:966152b2-7e57-42f8-a72b-57a32e778e97,
+        index:97e99582-b7e3-4f56-822d-bcfe05054429,
+        index:981e5117-d660-4228-ad93-18cdee81b03d,
+        index:99be0cdd-911a-4b79-ad4c-519700959245,
+        index:9b3e7af0-ecd1-4ef7-b62c-067183f3fd14,
+        index:9d2af372-148c-4f47-b79c-0cd60b6aa075,
+        index:a520b756-2e09-40ed-949b-91c7b8102176,
+        index:a829c94f-78da-4d5a-baec-6ddf10a17253,
+        index:aee7cb9d-eba3-402d-b0ab-710bbf0384dd,
+        index:b10adade-0df4-4c8d-98ac-bb515eb80025,
+        index:b2b023a1-b584-4887-971f-20d838d00425,
+        index:b58f0730-23c9-483b-8aa2-02be9a6b508b,
+        index:b762e1d6-9479-4e64-a737-2e5886ad2c7e,
+        index:b77b3640-4c54-4390-80fc-006a9a524859,
+        index:ba894902-1530-4e4f-bc9c-170879eb4a85,
+        index:bb86cf4c-7265-4798-bff6-3ee62d0e23ba,
+        index:bf1c50be-ae09-4053-9b24-006f5617277f,
+        index:c2a0a4d4-8b08-442e-b992-b57b29fd794d,
+        index:c3ec8eef-f61a-4dc9-8cef-a4be6aef5de4,
+        index:c4a7e4d9-e0f1-4fad-97b3-bd1c716e7405,
+        index:c5dbb102-82d1-4b37-a280-5966925c575a,
+        index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e,
+        index:cdf3634c-79ce-4a86-b939-56b57ddba857,
+        index:cef81a41-a65b-402e-a6cd-4422e4c4aadb,
+        index:d2b8b504-e8b6-4b63-b9b1-6d5347988c98,
+        index:d9acba4e-52c5-41e9-837a-c7d322564789,
+        index:db2a2991-5175-473e-be38-58ba2fca193d,
+        index:db6d69da-f9dd-45d4-8655-3d94294ca955,
+        index:dbb8bd65-b6a4-4dc2-b98f-32e1e6895a57,
+        index:dd5352a5-456a-4281-859a-a231b61c8adc,
+        index:e084aca4-a8f9-47b9-b4e9-c2b9e69ea9dd,
+        index:e2e629a9-b209-4add-b7b2-577da3a152b2,
+        index:e2e82902-4496-4d02-bb7e-244183e1d87e,
+        index:e6b90036-2b4a-4497-a036-1fc39e7f9a36,
+        index:ebb8d749-30e4-4b95-adf3-6914ce4313d1,
+        index:edf31376-7791-4885-bbb1-77d203405d79,
+        index:efe81147-b8a8-4ced-936b-8235c9c42be9,
+        index:f546b0b1-ed7e-41a3-abbc-fabb7a579658,
+        index:f6581a41-2eaf-48a2-9f25-e939311b151b,
+        index:f8159c28-15dd-4488-8e54-88098d821a86,
+        index:fa30baf0-b643-44f9-a9e2-87ee97f51fa6,
+        index:fb49373e-d42a-4f42-987b-5cc157bd1070,
+        index:fbc01000-5f57-4162-bd49-bdfbc16d35ae,
+        index:fc519c79-b7fa-43a0-8941-390a32ef9355,
+        index:fce73f1d-4fb4-407c-a7a6-308b13dc7f97,
+        index:fdc5a3ed-0d6d-4ed3-9129-d557949380b1 ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.023448"^^xsd:dateTime ;
+    ct:description "ICCD Container für den TwinGen Demonstrator" ;
+    ct:publishedBy index:e5bdb471-826a-4033-aef9-1a923e5534b1 .
+
+index:973bb2a7-0e75-4b1b-b4f7-87563c8a26ba a ct:Person ;
+    ct:Name "Simon Vilgertshofer" ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.022449"^^xsd:dateTime ;
+    ct:description "TwinGen Project Member - TUM " .
+
+index:e2a4cf40-8f07-436d-a059-35aceaab56cd a ct:Person ;
+    ct:Name "Jan Martens" ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.022449"^^xsd:dateTime ;
+    ct:description "TwinGen Project Member - gia RWTH" .
+
+index:06d961d7-3d35-48dd-895e-e6a4be4e1f89 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T08:38:00"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-03" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-03.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-03.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:072213e6-1c5b-4a90-ad45-85fd3cf96754 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:16"^^xsd:dateTime ;
+    ct:description "SCHADEN36" ;
+    ct:filename "Pictures/SCHADEN36.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN36.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:08fc2f1a-353d-4537-949c-0407bd37457f a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_101_ABSTECKUNG__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_101_ABSTECKUNG__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_101_ABSTECKUNG__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:0960dad8-42ef-4554-871c-c3a8f2095466 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T10:15:58"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-08" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-08.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-08.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:1009e9ce-381e-489e-8bef-704e88050d5f a ct:InternalDocument ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:09.294738"^^xsd:dateTime ;
+    ct:description "damage_point_representation" ;
+    ct:filename "Models/damage_point_representation.ifc" ;
+    ct:filetype "ifc" ;
+    ct:foldername "Models" ;
+    ct:format "application/x-extension-ifc" ;
+    ct:name "damage_point_representation.ifc" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:101ad627-0df7-439b-a611-72ed6e3ad145 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_112_SCHAL+BEWFTNR5__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_112_SCHAL+BEWFTNR5__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_112_SCHAL+BEWFTNR5__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:10299d8e-0561-49aa-91e0-ab4b11f470e0 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2010-07-12T11:35:58"^^xsd:dateTime ;
+    ct:description "BW45_2_RISSBILD" ;
+    ct:filename "Plans/BW45_2_RISSBILD.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "BW45_2_RISSBILD.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:11e375d7-9da7-4d2b-92c7-76587daa4527 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_205_BEWWDLACHSE30__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_205_BEWWDLACHSE30__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_205_BEWWDLACHSE30__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:12f00dc8-234d-4252-a871-98a231f0dcb0 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T08:19:04"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-01" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-01.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-01.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:1353e24f-7135-4111-afa3-7dd0e7fdec4c a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-10-10T09:56:58"^^xsd:dateTime ;
+    ct:description "HOEHEN" ;
+    ct:filename "Plans/HOEHEN.PDF" ;
+    ct:filetype "pdf" ;
+    ct:foldername "Plans" ;
+    ct:format "application/pdf" ;
+    ct:name "HOEHEN.PDF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:18d5a10f-951b-445e-9513-0f2b7ceabc5c a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_110_SCHAL+BEWFTNR2+3__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_110_SCHAL+BEWFTNR2+3__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_110_SCHAL+BEWFTNR2+3__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:1900a3d5-80bc-4739-a3fa-4ee41e5692d5 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-10-21T09:45:40"^^xsd:dateTime ;
+    ct:description "WIDERLAGERHINTEN" ;
+    ct:filename "Pictures/WIDERLAGERHINTEN.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "WIDERLAGERHINTEN.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:1a0a6ab8-cecc-4c26-b245-522b0abb99cc a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:16"^^xsd:dateTime ;
+    ct:description "SCHADEN12" ;
+    ct:filename "Pictures/SCHADEN12.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN12.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:247744dc-20ae-4796-9e4a-c5e3fc49b33c a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2002-07-10T16:18:06"^^xsd:dateTime ;
+    ct:description "Bestand1" ;
+    ct:filename "Plans/Bestand1.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "Bestand1.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:247aa1f2-b805-494f-9189-8bb84c0e8434 a ct:InternalDocument ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:09.292174"^^xsd:dateTime ;
+    ct:description "bridgemodel" ;
+    ct:filename "Models/bridgemodel.ifc" ;
+    ct:filetype "ifc" ;
+    ct:foldername "Models" ;
+    ct:format "application/x-extension-ifc" ;
+    ct:name "bridgemodel.ifc" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:24ee0b02-f338-4750-b7cc-e2a070302ba9 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_207_BEWORTBETONPLATTE__9" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_207_BEWORTBETONPLATTE__9.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_207_BEWORTBETONPLATTE__9.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:283e2364-1854-4af0-ab79-c119019e8255 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:18"^^xsd:dateTime ;
+    ct:description "SCHADEN39" ;
+    ct:filename "Pictures/SCHADEN39.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN39.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:29ee42fc-bf8e-4b74-a3e4-d0e45bf2ac05 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_109_SCHAL+BEWFTNR1__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_109_SCHAL+BEWFTNR1__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_109_SCHAL+BEWFTNR1__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:2cfc7556-b68f-417d-be43-39693e2dd71b a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:28"^^xsd:dateTime ;
+    ct:description "SCHADEN34" ;
+    ct:filename "Pictures/SCHADEN34.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN34.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:2f9ab4d5-cae5-42c1-8fca-4157d6cc391a a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:16"^^xsd:dateTime ;
+    ct:description "SCHADEN32" ;
+    ct:filename "Pictures/SCHADEN32.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN32.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:3299cda0-3e11-4f36-add4-21da13bc930b a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_404_UEBERGANGSKONSTR__1" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_404_UEBERGANGSKONSTR__1.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_404_UEBERGANGSKONSTR__1.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:3bc49c35-9cc8-4ca2-81dc-6ebf697755f6 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_204_BEWFUNDAMA30__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_204_BEWFUNDAMA30__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_204_BEWFUNDAMA30__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:3e849457-d3e2-4b99-96d4-74182075d48a a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2002-07-10T16:30:04"^^xsd:dateTime ;
+    ct:description "Bestand4" ;
+    ct:filename "Plans/Bestand4.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "Bestand4.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:3f0ff5a3-2068-4348-bc54-31e63f3d7d0e a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:28"^^xsd:dateTime ;
+    ct:description "SCHADEN3" ;
+    ct:filename "Pictures/SCHADEN3.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN3.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:3f134ec3-d9a3-49b1-9bcb-5d6281a5e8fd a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T08:15:42"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-SEITENANSICHT" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-SEITENANSICHT.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-SEITENANSICHT.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:3fc59297-b73c-471f-b3bb-a31d6bc23710 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_104_SCHAL+BEWKAPPEN__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_104_SCHAL+BEWKAPPEN__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_104_SCHAL+BEWKAPPEN__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:4525e0b2-1b26-4ce0-b284-0411d9e8ffff a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T10:28:28"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-13" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-13.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-13.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:487a7632-f92b-43cd-bb9e-0075b27b4d60 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_102_REGELQUERSCHN__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_102_REGELQUERSCHN__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_102_REGELQUERSCHN__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:52e23286-800f-4a60-8ce4-8c00d24b983d a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_105_SCHALPLWLACHSE10__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_105_SCHALPLWLACHSE10__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_105_SCHALPLWLACHSE10__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:535318a4-39a2-47e3-b4c5-6d0a505c78fa a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_402_QUERFESTESLAGER__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_402_QUERFESTESLAGER__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_402_QUERFESTESLAGER__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:5458a077-23bc-461c-9b79-31ea32e89ee9 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T09:55:24"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-05" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-05.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-05.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:561da302-03b7-4eb3-89fa-e2a2aae9f740 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-07T09:04:40"^^xsd:dateTime ;
+    ct:description "BW00-2RISSBILD" ;
+    ct:filename "Pictures/BW00-2RISSBILD.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "BW00-2RISSBILD.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:56542833-dd12-4129-82c3-fe48af331738 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-09-02T11:15:32"^^xsd:dateTime ;
+    ct:description "UEKOHINTEN" ;
+    ct:filename "Pictures/UEKOHINTEN.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "UEKOHINTEN.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:568e4244-5976-46d3-b885-f877c8480a57 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_111_SCHAL+BEWFTNR4__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_111_SCHAL+BEWFTNR4__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_111_SCHAL+BEWFTNR4__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:5693662e-887b-49f4-ad65-5465742a10b4 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_501_SPUNDWANDVERBPFEILER__1" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_501_SPUNDWANDVERBPFEILER__1.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_501_SPUNDWANDVERBPFEILER__1.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:58886a67-9304-41de-be94-71175f1a5398 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2002-07-10T16:44:26"^^xsd:dateTime ;
+    ct:description "Bestand3" ;
+    ct:filename "Plans/Bestand3.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "Bestand3.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:58a8327a-8be5-4e27-9286-2131688b2a60 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_502_GESIMSSCHALUNG__2" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_502_GESIMSSCHALUNG__2.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_502_GESIMSSCHALUNG__2.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:59865df2-19fe-40e2-b1b5-3541e4bd5fe8 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_401_ALLSBEWEGLLAGER___1" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_401_ALLSBEWEGLLAGER___1.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_401_ALLSBEWEGLLAGER___1.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:624d698f-afcd-4e87-b3ca-7e90a5275fdb a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T09:39:02"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-09" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-09.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-09.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:62e35b8e-44fd-4b20-acbe-4420a3b433c7 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T10:27:32"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-12" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-12.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-12.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:64b96ce1-f13f-4378-bce5-e88801edce4c a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_401_ALLSBEWEGLLAGER__1" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_401_ALLSBEWEGLLAGER__1.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_401_ALLSBEWEGLLAGER__1.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:66553e5e-d354-403d-b3d9-6e0c8031e3ce a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-03-11T10:10:32"^^xsd:dateTime ;
+    ct:description "p6150052" ;
+    ct:filename "Pictures/p6150052.jpg" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "p6150052.jpg" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:66fe86ca-d061-4d63-9d7e-48b6aaf0e475 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-09-02T11:25:38"^^xsd:dateTime ;
+    ct:description "ENTWAESSERUNG" ;
+    ct:filename "Pictures/ENTWAESSERUNG.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "ENTWAESSERUNG.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:69158ee0-beea-4be6-a67a-17a614dba018 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-10-21T09:45:40"^^xsd:dateTime ;
+    ct:description "WIDERLAGERVORN" ;
+    ct:filename "Pictures/WIDERLAGERVORN.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "WIDERLAGERVORN.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:6945b836-d616-415d-a588-c6f77276b739 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-10-21T09:45:40"^^xsd:dateTime ;
+    ct:description "UNTERSICHTFELD1" ;
+    ct:filename "Pictures/UNTERSICHTFELD1.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "UNTERSICHTFELD1.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:6b566171-2856-46cb-95f5-354d28012f93 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-10-21T10:45:42"^^xsd:dateTime ;
+    ct:description "WIDERLAGERVORN-STIRNWANDLINKSUNTEN" ;
+    ct:filename "Pictures/WIDERLAGERVORN-STIRNWANDLINKSUNTEN.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "WIDERLAGERVORN-STIRNWANDLINKSUNTEN.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:704b4550-3c7a-48b5-bf82-5aba29f1de95 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_206_VORSPANNUNGFT__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_206_VORSPANNUNGFT__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_206_VORSPANNUNGFT__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:7245886f-ad87-4043-b51d-a9fb53b34e8a a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_301_ENTWAESSERUNG__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_301_ENTWAESSERUNG__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_301_ENTWAESSERUNG__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:726bf3e6-0aa4-4b9e-821c-86e57688daab a ct:InternalDocument ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:09.293168"^^xsd:dateTime ;
+    ct:description "bridgemodel" ;
+    ct:filename "RDF Data/bridgemodel.ttl" ;
+    ct:filetype "ttl" ;
+    ct:foldername "RDF Data" ;
+    ct:name "bridgemodel.ttl" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:753d847e-9d19-4a2d-b6bb-f7986a8a9fcf a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_107_SCHALPLWLACHSE30__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_107_SCHALPLWLACHSE30__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_107_SCHALPLWLACHSE30__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:7684a26a-d40b-4830-8e12-464237c3a0b8 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_202_BEWWDLACHSE10__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_202_BEWWDLACHSE10__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_202_BEWWDLACHSE10__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:796bdc30-047f-4419-9c68-fd941e4a70af a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:26"^^xsd:dateTime ;
+    ct:description "SCHADEN10" ;
+    ct:filename "Pictures/SCHADEN10.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN10.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:7a3407e6-9cca-4be4-8312-d40b159613ee a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2002-07-10T16:28:10"^^xsd:dateTime ;
+    ct:description "Bestand2" ;
+    ct:filename "Plans/Bestand2.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "Bestand2.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:7bbdb4db-8f36-478d-8e91-c0336337b790 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:28"^^xsd:dateTime ;
+    ct:description "SCHADEN21" ;
+    ct:filename "Pictures/SCHADEN21.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN21.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:7bdc0176-1fed-48fd-b8a1-d112cba233ab a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-07T09:04:02"^^xsd:dateTime ;
+    ct:description "BW00-2WIDERLAGERHINTEN" ;
+    ct:filename "Pictures/BW00-2WIDERLAGERHINTEN.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "BW00-2WIDERLAGERHINTEN.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:7ceadd46-ae85-4e92-834e-2793431d2134 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T08:42:38"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-07" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-07.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-07.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:7e68c0aa-96e2-4566-8bc4-cb7449f4fd3e a ct:InternalDocument ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:09.298620"^^xsd:dateTime ;
+    ct:description "damageAreas_LBD" ;
+    ct:filename "RDF Data/damageAreas_LBD.ttl" ;
+    ct:filetype "ttl" ;
+    ct:foldername "RDF Data" ;
+    ct:name "damageAreas_LBD.ttl" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:7ecbf39c-8349-4a85-a4a1-d3558dcf2e7a a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2010-07-12T12:35:58"^^xsd:dateTime ;
+    ct:description "BILD2" ;
+    ct:filename "Pictures/BILD2.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "BILD2.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:86f67870-8184-47e2-b5a1-cf869c22dec5 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-07T08:52:48"^^xsd:dateTime ;
+    ct:description "BW00-2DRAUFSICHTU.UNTERSICHTFELD1" ;
+    ct:filename "Pictures/BW00-2DRAUFSICHTU.UNTERSICHTFELD1.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "BW00-2DRAUFSICHTU.UNTERSICHTFELD1.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:88ce4c52-db34-4677-8440-95fb0acd58d7 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:28"^^xsd:dateTime ;
+    ct:description "SCHADEN35" ;
+    ct:filename "Pictures/SCHADEN35.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN35.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:88d30d66-f43b-431e-9a8e-603c949c3a6a a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:28"^^xsd:dateTime ;
+    ct:description "SCHADEN22" ;
+    ct:filename "Pictures/SCHADEN22.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN22.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:8bd81177-bc76-4c58-8e4d-2409d511e090 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2007-10-17T14:42:34"^^xsd:dateTime ;
+    ct:description "P_A00_O_BW00-0_0000000_001_BESTANDSUEBERSICHTSZEICHNG" ;
+    ct:filename "Plans/P_A00_O_BW00-0_0000000_001_BESTANDSUEBERSICHTSZEICHNG.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "P_A00_O_BW00-0_0000000_001_BESTANDSUEBERSICHTSZEICHNG.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:8c91f63f-19b9-48c5-8f56-45f80ec58c47 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-07T08:59:36"^^xsd:dateTime ;
+    ct:description "BW00-2DRAUFSICHTU.UNTERSICHTFELD2" ;
+    ct:filename "Pictures/BW00-2DRAUFSICHTU.UNTERSICHTFELD2.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "BW00-2DRAUFSICHTU.UNTERSICHTFELD2.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:8d2542b7-751c-4802-b570-1a014180138c a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-09-02T09:26:22"^^xsd:dateTime ;
+    ct:description "KAPPELINKS-FROSTSCHAEDEN" ;
+    ct:filename "Pictures/KAPPELINKS-FROSTSCHAEDEN.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "KAPPELINKS-FROSTSCHAEDEN.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:8d8a6cb3-76bc-4a58-ba89-3f1e5898aa2e a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T10:22:52"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-06" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-06.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-06.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:92a450f1-d541-43d7-b13b-f17ff8b31afe a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-09-02T13:38:18"^^xsd:dateTime ;
+    ct:description "TRAEGER2VONRECHTSUEBERPFEILER-FELD2" ;
+    ct:filename "Pictures/TRAEGER2VONRECHTSUEBERPFEILER-FELD2.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "TRAEGER2VONRECHTSUEBERPFEILER-FELD2.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:966152b2-7e57-42f8-a72b-57a32e778e97 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-03-11T10:10:32"^^xsd:dateTime ;
+    ct:description "p6150065" ;
+    ct:filename "Pictures/p6150065.jpg" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "p6150065.jpg" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:97e99582-b7e3-4f56-822d-bcfe05054429 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:26"^^xsd:dateTime ;
+    ct:description "SCHADEN17" ;
+    ct:filename "Pictures/SCHADEN17.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN17.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:981e5117-d660-4228-ad93-18cdee81b03d a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-03-11T10:10:32"^^xsd:dateTime ;
+    ct:description "DH" ;
+    ct:filename "Pictures/DH.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "DH.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:99be0cdd-911a-4b79-ad4c-519700959245 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T10:23:12"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-04" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-04.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-04.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:9b3e7af0-ecd1-4ef7-b62c-067183f3fd14 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_504_JOCHFFTMONTAGE__1" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_504_JOCHFFTMONTAGE__1.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_504_JOCHFFTMONTAGE__1.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:9d2af372-148c-4f47-b79c-0cd60b6aa075 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:18"^^xsd:dateTime ;
+    ct:description "SCHADEN42" ;
+    ct:filename "Pictures/SCHADEN42.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN42.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:a520b756-2e09-40ed-949b-91c7b8102176 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:26"^^xsd:dateTime ;
+    ct:description "SCHADEN15" ;
+    ct:filename "Pictures/SCHADEN15.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN15.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:a829c94f-78da-4d5a-baec-6ddf10a17253 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_503_JOCHAMWDL10__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_503_JOCHAMWDL10__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_503_JOCHAMWDL10__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:aee7cb9d-eba3-402d-b0ab-710bbf0384dd a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_114_SCHAL+BEWFTNR8__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_114_SCHAL+BEWFTNR8__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_114_SCHAL+BEWFTNR8__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:b10adade-0df4-4c8d-98ac-bb515eb80025 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-09-02T11:11:24"^^xsd:dateTime ;
+    ct:description "KAPPEN-UEKOHINTENLINKS" ;
+    ct:filename "Pictures/KAPPEN-UEKOHINTENLINKS.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "KAPPEN-UEKOHINTENLINKS.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:b2b023a1-b584-4887-971f-20d838d00425 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-03-11T10:10:32"^^xsd:dateTime ;
+    ct:description "p6180069" ;
+    ct:filename "Pictures/p6180069.jpg" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "p6180069.jpg" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:b58f0730-23c9-483b-8aa2-02be9a6b508b a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_403_UEBERGANGSKONSTR__1" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_403_UEBERGANGSKONSTR__1.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_403_UEBERGANGSKONSTR__1.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:b762e1d6-9479-4e64-a737-2e5886ad2c7e a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-07T09:03:00"^^xsd:dateTime ;
+    ct:description "BW00-2WIDERLAGERVORNE" ;
+    ct:filename "Pictures/BW00-2WIDERLAGERVORNE.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "BW00-2WIDERLAGERVORNE.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:b77b3640-4c54-4390-80fc-006a9a524859 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-03-11T10:10:32"^^xsd:dateTime ;
+    ct:description "p6150064" ;
+    ct:filename "Pictures/p6150064.jpg" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "p6150064.jpg" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:ba894902-1530-4e4f-bc9c-170879eb4a85 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_001_BW-UEBERSICHTSPLAN__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_001_BW-UEBERSICHTSPLAN__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_001_BW-UEBERSICHTSPLAN__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:bb86cf4c-7265-4798-bff6-3ee62d0e23ba a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_402_QUERFESTESLAGER___0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_402_QUERFESTESLAGER___0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_402_QUERFESTESLAGER___0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:bf1c50be-ae09-4053-9b24-006f5617277f a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:26"^^xsd:dateTime ;
+    ct:description "P1360449" ;
+    ct:filename "Pictures/P1360449.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "P1360449.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:c2a0a4d4-8b08-442e-b992-b57b29fd794d a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:16"^^xsd:dateTime ;
+    ct:description "SCHADEN29" ;
+    ct:filename "Pictures/SCHADEN29.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN29.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:c3ec8eef-f61a-4dc9-8cef-a4be6aef5de4 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2002-07-10T16:30:56"^^xsd:dateTime ;
+    ct:description "Bestand5" ;
+    ct:filename "Plans/Bestand5.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "Bestand5.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:c4a7e4d9-e0f1-4fad-97b3-bd1c716e7405 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_203_BEWPFEILERA20__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_203_BEWPFEILERA20__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_203_BEWPFEILERA20__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:c5dbb102-82d1-4b37-a280-5966925c575a a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-03-11T10:10:32"^^xsd:dateTime ;
+    ct:description "gis" ;
+    ct:filename "Pictures/gis.jpg" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "gis.jpg" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2022-08-02T14:28:09.299616"^^xsd:dateTime ;
+    ct:description "SIBBWGraphWithIfcLinks_2022-08-02" ;
+    ct:filename "RDF Data/SIBBWGraphWithIfcLinks_2022-08-02.ttl" ;
+    ct:filetype "ttl" ;
+    ct:foldername "RDF Data" ;
+    ct:name "SIBBWGraphWithIfcLinks_2022-08-02.ttl" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:cdf3634c-79ce-4a86-b939-56b57ddba857 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2022-08-02T14:28:09.293737"^^xsd:dateTime ;
+    ct:description "damage_bcf_representation" ;
+    ct:filename "Miscellaneous/damage_bcf_representation.bcf" ;
+    ct:filetype "bcf" ;
+    ct:foldername "Miscellaneous" ;
+    ct:name "damage_bcf_representation.bcf" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:cef81a41-a65b-402e-a6cd-4422e4c4aadb a ct:InternalDocument ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:09.297612"^^xsd:dateTime ;
+    ct:description "damageAreas" ;
+    ct:filename "Models/damageAreas.ifc" ;
+    ct:filetype "ifc" ;
+    ct:foldername "Models" ;
+    ct:format "application/x-extension-ifc" ;
+    ct:name "damageAreas.ifc" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:d2b8b504-e8b6-4b63-b9b1-6d5347988c98 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:16"^^xsd:dateTime ;
+    ct:description "SCHADEN11" ;
+    ct:filename "Pictures/SCHADEN11.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN11.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:d9acba4e-52c5-41e9-837a-c7d322564789 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:18"^^xsd:dateTime ;
+    ct:description "SCHADEN41" ;
+    ct:filename "Pictures/SCHADEN41.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN41.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:db2a2991-5175-473e-be38-58ba2fca193d a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:16"^^xsd:dateTime ;
+    ct:description "SCHADEN20" ;
+    ct:filename "Pictures/SCHADEN20.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN20.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:db6d69da-f9dd-45d4-8655-3d94294ca955 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-10-21T09:45:40"^^xsd:dateTime ;
+    ct:description "UNTERSICHTFELD2" ;
+    ct:filename "Pictures/UNTERSICHTFELD2.TIF" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "UNTERSICHTFELD2.TIF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:dbb8bd65-b6a4-4dc2-b98f-32e1e6895a57 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-03-11T10:10:32"^^xsd:dateTime ;
+    ct:description "seitenansicht" ;
+    ct:filename "Pictures/seitenansicht.jpg" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "seitenansicht.jpg" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:dd5352a5-456a-4281-859a-a231b61c8adc a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:16"^^xsd:dateTime ;
+    ct:description "SCHADEN23" ;
+    ct:filename "Pictures/SCHADEN23.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN23.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:e084aca4-a8f9-47b9-b4e9-c2b9e69ea9dd a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_201_BEWFUNDAMWLA10__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_201_BEWFUNDAMWLA10__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_201_BEWFUNDAMWLA10__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:e2e629a9-b209-4add-b7b2-577da3a152b2 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T08:34:32"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-10" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-10.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-10.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:e2e82902-4496-4d02-bb7e-244183e1d87e a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-01-02T10:03:26"^^xsd:dateTime ;
+    ct:description "SCHADEN33" ;
+    ct:filename "Pictures/SCHADEN33.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN33.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:e5bdb471-826a-4033-aef9-1a923e5534b1 a ct:Organisation ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.023448"^^xsd:dateTime ;
+    ct:description "TwinGen Project Team" .
+
+index:e6b90036-2b4a-4497-a036-1fc39e7f9a36 a ct:InternalDocument ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:09.295744"^^xsd:dateTime ;
+    ct:description "damage_point_representation_LBD" ;
+    ct:filename "RDF Data/damage_point_representation_LBD.ttl" ;
+    ct:filetype "ttl" ;
+    ct:foldername "RDF Data" ;
+    ct:name "damage_point_representation_LBD.ttl" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:ebb8d749-30e4-4b95-adf3-6914ce4313d1 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_113_SCHAL+BEWFTNR6+7__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_113_SCHAL+BEWFTNR6+7__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_113_SCHAL+BEWFTNR6+7__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:edf31376-7791-4885-bbb1-77d203405d79 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:16"^^xsd:dateTime ;
+    ct:description "SCHADEN13" ;
+    ct:filename "Pictures/SCHADEN13.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN13.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:efe81147-b8a8-4ced-936b-8235c9c42be9 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_108_LAGERVERSETZPLAN__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_108_LAGERVERSETZPLAN__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_108_LAGERVERSETZPLAN__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:f546b0b1-ed7e-41a3-abbc-fabb7a579658 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_106_SCHALPLPFEILERA20__0" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_106_SCHALPLPFEILERA20__0.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_106_SCHALPLPFEILERA20__0.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:f6581a41-2eaf-48a2-9f25-e939311b151b a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:18"^^xsd:dateTime ;
+    ct:description "SCHADEN14" ;
+    ct:filename "Pictures/SCHADEN14.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN14.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:f8159c28-15dd-4488-8e54-88098d821a86 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2005-05-25T16:46:20"^^xsd:dateTime ;
+    ct:description "A00_BW00-0_0000000_103_SCHALPLUEBERBAU__9" ;
+    ct:filename "Pictures/A00_BW00-0_0000000_103_SCHALPLUEBERBAU__9.tif" ;
+    ct:filetype "tif" ;
+    ct:foldername "Plans" ;
+    ct:format "image/tiff" ;
+    ct:name "A00_BW00-0_0000000_103_SCHALPLUEBERBAU__9.tif" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:fa30baf0-b643-44f9-a9e2-87ee97f51fa6 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2013-10-21T10:45:40"^^xsd:dateTime ;
+    ct:description "GESIMSRECHTS" ;
+    ct:filename "Pictures/GESIMSRECHTS.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "GESIMSRECHTS.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:fb49373e-d42a-4f42-987b-5cc157bd1070 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T10:07:30"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-14" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-14.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-14.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:fbc01000-5f57-4162-bd49-bdfbc16d35ae a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2020-05-05T14:19:18"^^xsd:dateTime ;
+    ct:description "SCHADEN28" ;
+    ct:filename "Pictures/SCHADEN28.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "SCHADEN28.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:fc519c79-b7fa-43a0-8941-390a32ef9355 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2019-02-07T14:17:34"^^xsd:dateTime ;
+    ct:description "A00O_BW00_0_BAUWERKSBUCH_7936662_0" ;
+    ct:filename "Plans/A00O_BW00_0_BAUWERKSBUCH_7936662_0.PDF" ;
+    ct:filetype "pdf" ;
+    ct:foldername "Plans" ;
+    ct:format "application/pdf" ;
+    ct:name "A00O_BW00_0_BAUWERKSBUCH_7936662_0.PDF" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:fce73f1d-4fb4-407c-a7a6-308b13dc7f97 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T10:57:40"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-02" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-02.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-02.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:fdc5a3ed-0d6d-4ed3-9129-d557949380b1 a ct:InternalDocument ;
+    ct:createdBy index:6cf49d28-755b-4e8b-9fd4-54e27356f743 ;
+    ct:creationDate "2016-06-06T10:04:04"^^xsd:dateTime ;
+    ct:description "0000000-A00OST-BW-00-0-EP2016-BILD-11" ;
+    ct:filename "Pictures/0000000-A00OST-BW-00-0-EP2016-BILD-11.JPG" ;
+    ct:filetype "jpg" ;
+    ct:foldername "Pictures" ;
+    ct:format "image/jpeg" ;
+    ct:name "0000000-A00OST-BW-00-0-EP2016-BILD-11.JPG" ;
+    ct:requested false ;
+    ct:versionId "1" .
+
+index:9c89771a-406c-4a81-aaa5-d136653ffe37 a ct:Person ;
+    ct:Name "Anne Goebels" ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.022449"^^xsd:dateTime ;
+    ct:description "TwinGen Project Member - DC RWTH" .
+
+index:6cf49d28-755b-4e8b-9fd4-54e27356f743 a ct:Organisation ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.023448"^^xsd:dateTime ;
+    ct:description "Autobahn GmbH des Bundes, Niederlassung Suedbayern" .
+

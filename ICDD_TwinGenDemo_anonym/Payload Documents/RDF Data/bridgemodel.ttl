@@ -1,0 +1,849 @@
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lbd: <https://linkebuildingdata.org/LBD#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix smls: <https://w3id.org/def/smls-owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix inst: <https://asbingowl.org/TwinGenDemo/BW000#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023ca90
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Gelaender Sued:Gelaender Sued:189673" .
+
+inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b7750a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166275" .
+
+inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b77410
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77410 ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77410 ;
+        props:batid            inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b77410 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12328 .
+
+inst:wall_b4419de6-2b66-4df1-942e-64ca9c679b37
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_b4419de6-2b66-4df1-942e-64ca9c679b37 ;
+        props:nameIfcRoot      inst:nameIfcRoot_b4419de6-2b66-4df1-942e-64ca9c679b37 ;
+        props:batid            inst:batid_b4419de6-2b66-4df1-942e-64ca9c679b37 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcWall_12298 .
+
+inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b777da
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166739" .
+
+inst:batid_f0e6f9a7-ab23-49d2-9ecf-9f375511208e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "158885" .
+
+inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77410
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtGG" .
+
+inst:nameIfcRoot_e1d42e4a-8da2-40d2-9545-0c7cb9856eda
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Fundament A10:Fundament A10:12434" .
+
+inst:column_b2b22d62-5b8e-42af-ba99-9fddd5a722ae
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_b2b22d62-5b8e-42af-ba99-9fddd5a722ae ;
+        props:nameIfcRoot      inst:nameIfcRoot_b2b22d62-5b8e-42af-ba99-9fddd5a722ae ;
+        props:batid            inst:batid_b2b22d62-5b8e-42af-ba99-9fddd5a722ae ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcColumn_12296 .
+
+inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b7757e
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7757e ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7757e ;
+        props:batid            inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b7757e ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12334 .
+
+inst:buildingelement_776d4a04-8e12-498e-a6ba-487d29a953e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_776d4a04-8e12-498e-a6ba-487d29a953e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_776d4a04-8e12-498e-a6ba-487d29a953e8 ;
+        props:batid            inst:batid_776d4a04-8e12-498e-a6ba-487d29a953e8 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_12326 .
+
+inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7774e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Ueberbau:Ueberbau:166855" .
+
+inst:nameIfcRoot_e1d42e4a-8da2-40d2-9545-0c7cb9856a86
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Fundament A20:Fundament A20:13518" .
+
+inst:nameIfcRoot_776d4a04-8e12-498e-a6ba-487d29a953e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Lager A30-2:Lager A30:161868" .
+
+inst:buildingelement_cecd3ddb-e630-4edf-bad9-db620023c67b
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023c67b ;
+        props:nameIfcRoot      inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023c67b ;
+        props:batid            inst:batid_cecd3ddb-e630-4edf-bad9-db620023c67b ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_12348 .
+
+inst:batid_cecd3ddb-e630-4edf-bad9-db620023c66a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "190483" .
+
+inst:footing_e1d42e4a-8da2-40d2-9545-0c7cb9856eda
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_e1d42e4a-8da2-40d2-9545-0c7cb9856eda ;
+        props:nameIfcRoot      inst:nameIfcRoot_e1d42e4a-8da2-40d2-9545-0c7cb9856eda ;
+        props:batid            inst:batid_e1d42e4a-8da2-40d2-9545-0c7cb9856eda ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcFooting_12292 .
+
+inst:nameIfcRoot_c2771195-7335-4bc0-9205-2820eccf6a7f
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Geschossdecke:Geschossdecke 1:146193" .
+
+inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7757e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtL_" .
+
+inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b77586
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166159" .
+
+inst:batid_d33b97fe-8d52-4a16-b1d2-91572963d96a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "161332" .
+
+inst:footing_e1d42e4a-8da2-40d2-9545-0c7cb9856a86
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_e1d42e4a-8da2-40d2-9545-0c7cb9856a86 ;
+        props:nameIfcRoot      inst:nameIfcRoot_e1d42e4a-8da2-40d2-9545-0c7cb9856a86 ;
+        props:batid            inst:batid_e1d42e4a-8da2-40d2-9545-0c7cb9856a86 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcFooting_12294 .
+
+inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b77410
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166041" .
+
+inst:globalIdIfcRoot_776d4a04-8e12-498e-a6ba-487d29a953e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1tRKe4ZX99ZgQwI7qfgLFe" .
+
+inst:batid_b4419de6-2b66-4df1-942e-64ca9c679b37
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "18057" .
+
+inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b776e2
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Traeger 3:Traeger 3:166507" .
+
+inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023c67b
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3EpJtRvZ1EtxhPss808yPx" .
+
+inst:beam_ec58c491-5aad-416c-94b5-1c58459b2843
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_ec58c491-5aad-416c-94b5-1c58459b2843 ;
+        props:nameIfcRoot      inst:nameIfcRoot_ec58c491-5aad-416c-94b5-1c58459b2843 ;
+        props:batid            inst:batid_ec58c491-5aad-416c-94b5-1c58459b2843 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12302 .
+
+inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b7757e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166391" .
+
+inst:railing_cecd3ddb-e630-4edf-bad9-db620023cab2
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023cab2 ;
+        props:nameIfcRoot      inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023cab2 ;
+        props:batid            inst:batid_cecd3ddb-e630-4edf-bad9-db620023cab2 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcRailing_12344 .
+
+inst:stair_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b ;
+        props:nameIfcRoot      inst:nameIfcRoot_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b ;
+        props:batid            inst:batid_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcStair_12314 .
+
+inst:globalIdIfcRoot_ec58c491-5aad-416c-94b5-1c58459b2843
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3iMCIHMgr1R9Ir75X5coX3" .
+
+inst:buildingelement_d6052432-07c9-4d0f-89dc-098fe0dbb3bd
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_d6052432-07c9-4d0f-89dc-098fe0dbb3bd ;
+        props:nameIfcRoot      inst:nameIfcRoot_d6052432-07c9-4d0f-89dc-098fe0dbb3bd ;
+        props:batid            inst:batid_d6052432-07c9-4d0f-89dc-098fe0dbb3bd ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_5624 .
+
+inst:nameIfcRoot_7345dfeb-582f-40d2-b3b1-5daf701d04d4
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Fundament A30:Fundment A30:11240" .
+
+inst:nameIfcRoot_d6052432-07c9-4d0f-89dc-098fe0dbb3bd
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Unterregion:151115" .
+
+inst:beam_3a64da00-f073-418e-8d87-0d73841c3059
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a64da00-f073-418e-8d87-0d73841c3059 ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a64da00-f073-418e-8d87-0d73841c3059 ;
+        props:batid            inst:batid_3a64da00-f073-418e-8d87-0d73841c3059 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12304 .
+
+inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330e86
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1F75utWHn2dehevWD$Cmw6" .
+
+inst:batid_776d4a04-8e12-498e-a6ba-487d29a953e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "161868" .
+
+inst:globalIdIfcRoot_3a64da00-f073-418e-8d87-0d73841c3059
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wPDe0y7D1Zes73NE4731P" .
+
+inst:batid_cecd3ddb-e630-4edf-bad9-db620023c67b
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "190466" .
+
+inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7750a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Traeger 6:Traeger 6:166275" .
+
+inst:buildingelement_776d4a04-8e12-498e-a6ba-487d29a95c50
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c50 ;
+        props:nameIfcRoot      inst:nameIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c50 ;
+        props:batid            inst:batid_776d4a04-8e12-498e-a6ba-487d29a95c50 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_12324 .
+
+inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f337660
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Landstrasse:Landstrasse:148702" .
+
+inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b777da
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Traeger 1:Traeger 1:166739" .
+
+inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f330c76
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330c76 ;
+        props:nameIfcRoot      inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330c76 ;
+        props:batid            inst:batid_4f1c5e37-811c-429e-8ae8-e6037f330c76 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_12308 .
+
+inst:nameIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c50
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Lager A10-2:Lager A10:161780" .
+
+inst:nameIfcRoot_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Ortbetontreppe:Treppe:160396" .
+
+inst:wall_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a ;
+        props:nameIfcRoot      inst:nameIfcRoot_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a ;
+        props:batid            inst:batid_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcWall_12300 .
+
+inst:slab_4f1c5e37-811c-429e-8ae8-e6037f330e86
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330e86 ;
+        props:nameIfcRoot          inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330e86 ;
+        props:objectTypeIfcObject  inst:objectTypeIfcObject_4f1c5e37-811c-429e-8ae8-e6037f330e86 ;
+        props:batid                inst:batid_4f1c5e37-811c-429e-8ae8-e6037f330e86 ;
+        rdf:type                   bot:Element ;
+        owl:sameAs                 inst:IfcSlab_4597 .
+
+inst:globalIdIfcRoot_d6052432-07c9-4d0f-89dc-098fe0dbb3bd
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3M1IGo1ybD3udS2O$WsxEz" .
+
+inst:globalIdIfcRoot_6e337fff-0236-40a8-a7a6-ee3db0282b37
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1kCt$$0ZP0gAUcxZsmA2it" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8WrAvtEy" .
+
+inst:railing_cecd3ddb-e630-4edf-bad9-db620023ca90
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023ca90 ;
+        props:nameIfcRoot      inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023ca90 ;
+        props:batid            inst:batid_cecd3ddb-e630-4edf-bad9-db620023ca90 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcRailing_12346 .
+
+inst:batid_4f1c5e37-811c-429e-8ae8-e6037f330e86
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "146488" .
+
+inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023c66a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Leitplanke Sued:Leitplanke Sued:190483" .
+
+inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77586
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Traeger 5:Traeger 5:166159" .
+
+inst:globalIdIfcRoot_6e337fff-0236-40a8-a7a6-ee3db0282f4d
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1kCt$$0ZP0gAUcxZsmA2zD" .
+
+inst:batid_3a64da00-f073-418e-8d87-0d73841c3059
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "79701" .
+
+inst:longNameIfcSpatialElement_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Basis 555,10" .
+
+inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f337660
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1F75utWHn2dehevWD$CtPW" .
+
+inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f33724d
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f33724d ;
+        props:nameIfcRoot      inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f33724d ;
+        props:batid            inst:batid_4f1c5e37-811c-429e-8ae8-e6037f33724d ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_12310 .
+
+inst:globalIdIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c50
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1tRKe4ZX99ZgQwI7qfgLnG" .
+
+inst:nameIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c66
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Pfeiler A20-1:Pfeiler A20:161730" .
+
+inst:globalIdIfcRoot_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3axxe6nunEouLrjAJpmbex" .
+
+inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f33724d
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Lager A30-1:Lager A30:147699" .
+
+inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330c76
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1F75utWHn2dehevWD$Cmns" .
+
+inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77410
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Traeger 4:Traeger 4:166041" .
+
+inst:batid_7345dfeb-582f-40d2-b3b1-5daf701d04d4
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "11240" .
+
+inst:elevationIfcBuildingStorey_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0."^^xsd:double .
+
+inst:batid_d6052432-07c9-4d0f-89dc-098fe0dbb3bd
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "151115" .
+
+inst:objectTypeIfcObject_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Ebene:Ebene 1" .
+
+inst:buildingelement_4f3e6329-36ad-4054-ac0e-43c1a3dbd3f0
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_4f3e6329-36ad-4054-ac0e-43c1a3dbd3f0 ;
+        props:nameIfcRoot      inst:nameIfcRoot_4f3e6329-36ad-4054-ac0e-43c1a3dbd3f0 ;
+        props:batid            inst:batid_4f3e6329-36ad-4054-ac0e-43c1a3dbd3f0 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_5977 .
+
+inst:slab_4f1c5e37-811c-429e-8ae8-e6037f337660
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f337660 ;
+        props:nameIfcRoot      inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f337660 ;
+        props:batid            inst:batid_4f1c5e37-811c-429e-8ae8-e6037f337660 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcSlab_12312 .
+
+inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Basis 555,10" .
+
+inst:beam_bae0fd65-aae8-4a94-97d8-46b63b85dd11
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_bae0fd65-aae8-4a94-97d8-46b63b85dd11 ;
+        props:nameIfcRoot      inst:nameIfcRoot_bae0fd65-aae8-4a94-97d8-46b63b85dd11 ;
+        props:batid            inst:batid_bae0fd65-aae8-4a94-97d8-46b63b85dd11 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12306 .
+
+inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7757e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Traeger 7:Traeger 7:166391" .
+
+inst:globalIdIfcRoot_bae0fd65-aae8-4a94-97d8-46b63b85dd11
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2wuFrbgkXAb9VOHhOxXTqH" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8WrAvtE$" .
+
+inst:batid_4f1c5e37-811c-429e-8ae8-e6037f337660
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "148702" .
+
+inst:globalIdIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c66
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1tRKe4ZX99ZgQwI7qfgLnc" .
+
+inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330ea9
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1F75utWHn2dehevWD$Cmwf" .
+
+inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f33724d
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1F75utWHn2dehevWD$Ct9D" .
+
+inst:batid_776d4a04-8e12-498e-a6ba-487d29a95c50
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "161780" .
+
+inst:batid_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "160396" .
+
+inst:batid_4f1c5e37-811c-429e-8ae8-e6037f330c76
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "147144" .
+
+inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023cab2
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3EpJtRvZ1EtxhPss808ygo" .
+
+inst:column_776d4a04-8e12-498e-a6ba-487d29a95c66
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c66 ;
+        props:nameIfcRoot      inst:nameIfcRoot_776d4a04-8e12-498e-a6ba-487d29a95c66 ;
+        props:batid            inst:batid_776d4a04-8e12-498e-a6ba-487d29a95c66 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcColumn_12322 .
+
+inst:globalIdIfcRoot_4f3e6329-36ad-4054-ac0e-43c1a3dbd3f0
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1FFcCfDgr0LAmEGy6ZszFm" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8Wsr68h1" .
+
+inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023c67b
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Leitplanke Nord:Leitplanke Nord:190466" .
+
+inst:slab_4f1c5e37-811c-429e-8ae8-e6037f330ea9
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330ea9 ;
+        props:nameIfcRoot          inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330ea9 ;
+        props:objectTypeIfcObject  inst:objectTypeIfcObject_4f1c5e37-811c-429e-8ae8-e6037f330ea9 ;
+        props:batid                inst:batid_4f1c5e37-811c-429e-8ae8-e6037f330ea9 ;
+        rdf:type                   bot:Element ;
+        owl:sameAs                 inst:IfcSlab_4531 .
+
+inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf
+        bot:hasStorey          inst:storey_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        rdf:type               bot:Building ;
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf ;
+        owl:sameAs             inst:IfcBuilding_137 .
+
+inst:nameIfcRoot_ec58c491-5aad-416c-94b5-1c58459b2843
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Traeger 8:Traeger 8:66496" .
+
+inst:batid_bae0fd65-aae8-4a94-97d8-46b63b85dd11
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "81517" .
+
+inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b77656
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77656 ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77656 ;
+        props:batid            inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b77656 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12338 .
+
+inst:globalIdIfcRoot_b2b22d62-5b8e-42af-ba99-9fddd5a722ae
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2oiYrYMuv2hxgPdztLfoAk" .
+
+inst:batid_776d4a04-8e12-498e-a6ba-487d29a95c66
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "161730" .
+
+inst:batid_4f1c5e37-811c-429e-8ae8-e6037f330ea9
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "146455" .
+
+inst:batid_4f1c5e37-811c-429e-8ae8-e6037f33724d
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "147699" .
+
+inst:objectTypeIfcObject_4f1c5e37-811c-429e-8ae8-e6037f330e86
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Geschossdecke:Geschossdecke 1" .
+
+inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77656
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtPM" .
+
+inst:batid_cecd3ddb-e630-4edf-bad9-db620023cab2
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "189643" .
+
+inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330e86
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Geschossdecke:Geschossdecke 1:146488" .
+
+inst:buildingelement_3a4cc8ed-6a18-4e8e-b359-3f81d5b7774e
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7774e ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7774e ;
+        props:batid            inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b7774e ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_12342 .
+
+inst:globalIdIfcRoot_b4419de6-2b66-4df1-942e-64ca9c679b37
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2qGPtcAsPDyPGkPCgSPvit" .
+
+inst:nameIfcRoot_3a64da00-f073-418e-8d87-0d73841c3059
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Kappe Nord:Kappe Nord:79701" .
+
+inst:objectTypeIfcObject_c2771195-7335-4bc0-9205-2820eccf6a7f
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Geschossdecke:Geschossdecke 1" .
+
+inst:batid_4f3e6329-36ad-4054-ac0e-43c1a3dbd3f0
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "158246" .
+
+inst:storey_49c24f44-9e59-46e7-a811-220db5188ac1
+        props:objectTypeIfcObject  inst:objectTypeIfcObject_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_6e337fff-0236-40a8-a7a6-ee3db0282b37 ;
+        bot:containsElement        inst:buildingelement_776d4a04-8e12-498e-a6ba-487d29a95c50 ;
+        bot:containsElement        inst:column_b2b22d62-5b8e-42af-ba99-9fddd5a722ae ;
+        bot:containsElement        inst:buildingelement_776d4a04-8e12-498e-a6ba-487d29a953e8 ;
+        bot:containsElement        inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f330c76 ;
+        bot:containsElement        inst:stair_d33b97fe-8d52-4a16-b1d2-91572963d96a ;
+        bot:containsElement        inst:slab_4f1c5e37-811c-429e-8ae8-e6037f337660 ;
+        bot:containsElement        inst:buildingelement_cecd3ddb-e630-4edf-bad9-db620023c66a ;
+        bot:containsElement        inst:slab_c2771195-7335-4bc0-9205-2820eccf6a7f ;
+        bot:containsElement        inst:beam_bae0fd65-aae8-4a94-97d8-46b63b85dd11 ;
+        bot:containsElement        inst:beam_3a64da00-f073-418e-8d87-0d73841c3059 ;
+        bot:containsElement        inst:railing_cecd3ddb-e630-4edf-bad9-db620023ca90 ;
+        props:longNameIfcSpatialElement  inst:longNameIfcSpatialElement_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:footing_e1d42e4a-8da2-40d2-9545-0c7cb9856eda ;
+        bot:containsElement        inst:slab_4f1c5e37-811c-429e-8ae8-e6037f330ea9 ;
+        bot:containsElement        inst:railing_cecd3ddb-e630-4edf-bad9-db620023cab2 ;
+        bot:containsElement        inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b77410 ;
+        bot:containsElement        inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b77586 ;
+        bot:containsElement        inst:buildingelement_d6052432-07c9-4d0f-89dc-098fe0dbb3c4 ;
+        rdf:type                   bot:Storey ;
+        bot:containsElement        inst:footing_7345dfeb-582f-40d2-b3b1-5daf701d04d4 ;
+        props:nameIfcRoot          inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:column_776d4a04-8e12-498e-a6ba-487d29a95c66 ;
+        bot:containsElement        inst:beam_ec58c491-5aad-416c-94b5-1c58459b2843 ;
+        bot:containsElement        inst:wall_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a ;
+        bot:containsElement        inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b7757e ;
+        bot:containsElement        inst:buildingelement_6e337fff-0236-40a8-a7a6-ee3db0282f4d ;
+        bot:containsElement        inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b77656 ;
+        props:elevationIfcBuildingStorey  inst:elevationIfcBuildingStorey_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:footing_e1d42e4a-8da2-40d2-9545-0c7cb9856a86 ;
+        bot:containsElement        inst:buildingelement_4f1c5e37-811c-429e-8ae8-e6037f33724d ;
+        bot:containsElement        inst:buildingelement_cecd3ddb-e630-4edf-bad9-db620023c67b ;
+        bot:containsElement        inst:buildingelement_3a4cc8ed-6a18-4e8e-b359-3f81d5b7774e ;
+        bot:containsElement        inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b7750a ;
+        bot:containsElement        inst:slab_4f1c5e37-811c-429e-8ae8-e6037f330e86 ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:wall_b4419de6-2b66-4df1-942e-64ca9c679b37 ;
+        bot:containsElement        inst:buildingelement_f0e6f9a7-ab23-49d2-9ecf-9f375511208e ;
+        bot:containsElement        inst:buildingelement_4f3e6329-36ad-4054-ac0e-43c1a3dbd3f0 ;
+        bot:containsElement        inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b777da ;
+        bot:containsElement        inst:buildingelement_d6052432-07c9-4d0f-89dc-098fe0dbb3bd ;
+        owl:sameAs                 inst:IfcBuildingStorey_150 ;
+        bot:containsElement        inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b776e2 ;
+        bot:containsElement        inst:stair_e4efba06-c78c-4ecb-8575-b4a4f3c25a3b .
+
+inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023ca90
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3EpJtRvZ1EtxhPss808ygG" .
+
+inst:batid_b2b22d62-5b8e-42af-ba99-9fddd5a722ae
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "14734" .
+
+inst:buildingelement_6e337fff-0236-40a8-a7a6-ee3db0282b37
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_6e337fff-0236-40a8-a7a6-ee3db0282b37 ;
+        props:nameIfcRoot      inst:nameIfcRoot_6e337fff-0236-40a8-a7a6-ee3db0282b37 ;
+        props:batid            inst:batid_6e337fff-0236-40a8-a7a6-ee3db0282b37 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_5869 .
+
+inst:nameIfcRoot_6e337fff-0236-40a8-a7a6-ee3db0282b37
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Unterregion:155529" .
+
+inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Default" .
+
+inst:globalIdIfcRoot_e1d42e4a-8da2-40d2-9545-0c7cb9856eda
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3Xr2vAZQ90qfL537ovXMxQ" .
+
+inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b77656
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166623" .
+
+inst:footing_7345dfeb-582f-40d2-b3b1-5daf701d04d4
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_7345dfeb-582f-40d2-b3b1-5daf701d04d4 ;
+        props:nameIfcRoot      inst:nameIfcRoot_7345dfeb-582f-40d2-b3b1-5daf701d04d4 ;
+        props:batid            inst:batid_7345dfeb-582f-40d2-b3b1-5daf701d04d4 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcFooting_12290 .
+
+inst:buildingelement_6e337fff-0236-40a8-a7a6-ee3db0282f4d
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_6e337fff-0236-40a8-a7a6-ee3db0282f4d ;
+        props:nameIfcRoot      inst:nameIfcRoot_6e337fff-0236-40a8-a7a6-ee3db0282f4d ;
+        props:batid            inst:batid_6e337fff-0236-40a8-a7a6-ee3db0282f4d ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_5735 .
+
+inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7774e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtTE" .
+
+inst:nameIfcRoot_6e337fff-0236-40a8-a7a6-ee3db0282f4d
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Unterregion:154611" .
+
+inst:globalIdIfcRoot_e1d42e4a-8da2-40d2-9545-0c7cb9856a86
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3Xr2vAZQ90qfL537ovXMg6" .
+
+inst:globalIdIfcRoot_c2771195-7335-4bc0-9205-2820eccf6a7f
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "32Tn6LSpLBm985A23ipsf$" .
+
+inst:buildingelement_d6052432-07c9-4d0f-89dc-098fe0dbb3c4
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_d6052432-07c9-4d0f-89dc-098fe0dbb3c4 ;
+        props:nameIfcRoot      inst:nameIfcRoot_d6052432-07c9-4d0f-89dc-098fe0dbb3c4 ;
+        props:batid            inst:batid_d6052432-07c9-4d0f-89dc-098fe0dbb3c4 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_1444 .
+
+inst:site_49c24f44-9e59-46e7-a811-220d4ae773bc
+        bot:hasBuilding            inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf ;
+        rdf:type                   bot:Site ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        props:nameIfcRoot          inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        props:refElevationIfcSite  inst:refElevationIfcSite_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        owl:sameAs                 inst:IfcSite_154 .
+
+inst:nameIfcRoot_d6052432-07c9-4d0f-89dc-098fe0dbb3c4
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Oberfl�che:151090" .
+
+inst:batid_cecd3ddb-e630-4edf-bad9-db620023ca90
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "189673" .
+
+inst:batid_ec58c491-5aad-416c-94b5-1c58459b2843
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "66496" .
+
+inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330c76
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Lager A10-1:Lager A10:147144" .
+
+inst:batid_e1d42e4a-8da2-40d2-9545-0c7cb9856eda
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "12434" .
+
+inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b776e2
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b776e2 ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b776e2 ;
+        props:batid            inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b776e2 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12336 .
+
+inst:slab_c2771195-7335-4bc0-9205-2820eccf6a7f
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_c2771195-7335-4bc0-9205-2820eccf6a7f ;
+        props:nameIfcRoot          inst:nameIfcRoot_c2771195-7335-4bc0-9205-2820eccf6a7f ;
+        props:objectTypeIfcObject  inst:objectTypeIfcObject_c2771195-7335-4bc0-9205-2820eccf6a7f ;
+        props:batid                inst:batid_c2771195-7335-4bc0-9205-2820eccf6a7f ;
+        rdf:type                   bot:Element ;
+        owl:sameAs                 inst:IfcSlab_4470 .
+
+inst:stair_d33b97fe-8d52-4a16-b1d2-91572963d96a
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_d33b97fe-8d52-4a16-b1d2-91572963d96a ;
+        props:nameIfcRoot      inst:nameIfcRoot_d33b97fe-8d52-4a16-b1d2-91572963d96a ;
+        props:batid            inst:batid_d33b97fe-8d52-4a16-b1d2-91572963d96a ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcStair_12318 .
+
+inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b7774e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166855" .
+
+inst:nameIfcRoot_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Widerlager A30:Widerlager A30:40722" .
+
+inst:batid_e1d42e4a-8da2-40d2-9545-0c7cb9856a86
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "13518" .
+
+inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b776e2
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtRY" .
+
+inst:objectTypeIfcObject_4f1c5e37-811c-429e-8ae8-e6037f330ea9
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Geschossdecke:Geschossdecke 1" .
+
+inst:nameIfcRoot_bae0fd65-aae8-4a94-97d8-46b63b85dd11
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Kappe Sued:Kappe Sued:81517" .
+
+inst:batid_c2771195-7335-4bc0-9205-2820eccf6a7f
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "146193" .
+
+inst:buildingelement_f0e6f9a7-ab23-49d2-9ecf-9f375511208e
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_f0e6f9a7-ab23-49d2-9ecf-9f375511208e ;
+        props:nameIfcRoot      inst:nameIfcRoot_f0e6f9a7-ab23-49d2-9ecf-9f375511208e ;
+        props:batid            inst:batid_f0e6f9a7-ab23-49d2-9ecf-9f375511208e ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_6094 .
+
+inst:globalIdIfcRoot_d6052432-07c9-4d0f-89dc-098fe0dbb3c4
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3M1IGo1ybD3udS2O$WsxF4" .
+
+inst:nameIfcRoot_4f1c5e37-811c-429e-8ae8-e6037f330ea9
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Geschossdecke:Geschossdecke 1:146455" .
+
+inst:nameIfcRoot_f0e6f9a7-ab23-49d2-9ecf-9f375511208e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Unterregion:158885" .
+
+inst:globalIdIfcRoot_7345dfeb-582f-40d2-b3b1-5daf701d04d4
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1pHT$hM2z0qhEnNQzm7GJK" .
+
+inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023cab2
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Gelaender Nord:Gelaender Nord:189643" .
+
+inst:batid_6e337fff-0236-40a8-a7a6-ee3db0282b37
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "155529" .
+
+inst:nameIfcRoot_4f3e6329-36ad-4054-ac0e-43c1a3dbd3f0
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Unterregion:158246" .
+
+inst:buildingelement_cecd3ddb-e630-4edf-bad9-db620023c66a
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023c66a ;
+        props:nameIfcRoot      inst:nameIfcRoot_cecd3ddb-e630-4edf-bad9-db620023c66a ;
+        props:batid            inst:batid_cecd3ddb-e630-4edf-bad9-db620023c66a ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBuildingElementProxy_12350 .
+
+inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b7750a
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7750a ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7750a ;
+        props:batid            inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b7750a ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12332 .
+
+inst:batid_6e337fff-0236-40a8-a7a6-ee3db0282f4d
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "154611" .
+
+inst:globalIdIfcRoot_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2zYxyrReP1I8XedMkEgXzQ" .
+
+inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b777da
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b777da ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b777da ;
+        props:batid            inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b777da ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12340 .
+
+inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b776e2
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "166507" .
+
+inst:nameIfcRoot_d33b97fe-8d52-4a16-b1d2-91572963d96a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Ortbetontreppe:Treppe:161332" .
+
+inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b7750a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtKA" .
+
+inst:nameIfcRoot_b2b22d62-5b8e-42af-ba99-9fddd5a722ae
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Pfeiler A20-2:Pfeiler A20:14734" .
+
+inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b777da
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtVQ" .
+
+inst:globalIdIfcRoot_f0e6f9a7-ab23-49d2-9ecf-9f375511208e
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3mvlcdgoD9qfxFdpTL4I2E" .
+
+inst:batid_d6052432-07c9-4d0f-89dc-098fe0dbb3c4
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "151090" .
+
+inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77656
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Traeger 2:Traeger 2:166623" .
+
+inst:refElevationIfcSite_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0."^^xsd:double .
+
+inst:beam_3a4cc8ed-6a18-4e8e-b359-3f81d5b77586
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77586 ;
+        props:nameIfcRoot      inst:nameIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77586 ;
+        props:batid            inst:batid_3a4cc8ed-6a18-4e8e-b359-3f81d5b77586 ;
+        rdf:type               bot:Element ;
+        owl:sameAs             inst:IfcBeam_12330 .
+
+inst:nameIfcRoot_b4419de6-2b66-4df1-942e-64ca9c679b37
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Widerlager A10:Widerlager A10:18057" .
+
+inst:globalIdIfcRoot_cecd3ddb-e630-4edf-bad9-db620023c66a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3EpJtRvZ1EtxhPss808yPg" .
+
+inst:globalIdIfcRoot_3a4cc8ed-6a18-4e8e-b359-3f81d5b77586
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0wJCZjQXXEZhDPFu7LjtM6" .
+
+inst:batid_bd8bbf35-6e86-4148-8868-9d6b8eaa1f5a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "40722" .
+
+inst:globalIdIfcRoot_d33b97fe-8d52-4a16-b1d2-91572963d96a
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3JEvV_ZL9A5h7IaLSfOzbh" .

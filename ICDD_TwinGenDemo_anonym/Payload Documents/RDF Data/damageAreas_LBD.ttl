@@ -1,0 +1,782 @@
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix ifc: <https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD2/OWL#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lbd: <https://linkebuildingdata.org/LBD#> .
+@prefix props: <http://lbd.arch.rwth-aachen.de/props#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix IFC4-PSD: <https://www.linkedbuildingdata.net/IFC4-PSD#> .
+@prefix smls: <https://w3id.org/def/smls-owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix inst: <https://www.asbingowl.org/TwinGenDemo/BW000/DamageAreas#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+inst:buildingelement_8ccae7b4-125b-11ed-94c8-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_8ccae7b4-125b-11ed-94c8-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_8ccae7b4-125b-11ed-94c8-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_8ccae7b4-125b-11ed-94c8-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_9ee34782-125b-11ed-9002-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2UuqU24biHxP02l1UuLOJe" .
+
+inst:buildingelement_a1141f7e-125b-11ed-866e-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_a1141f7e-125b-11ed-866e-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_a1141f7e-125b-11ed-866e-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:nameIfcRoot_92435db8-125b-11ed-b5bf-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5590723_SchadenObjekt_2" .
+
+inst:nameIfcRoot_941c6e0b-125b-11ed-bcf8-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6392356_SchadenObjekt_1" .
+
+inst:buildingelement_8ee82805-125b-11ed-9c6e-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_8ee82805-125b-11ed-9c6e-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_8ee82805-125b-11ed-9c6e-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_957433a8-125b-11ed-9dc3-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_957433a8-125b-11ed-9dc3-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_957433a8-125b-11ed-9dc3-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_9e3aa9ba-125b-11ed-8932-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_9e3aa9ba-125b-11ed-8932-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_9e3aa9ba-125b-11ed-8932-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_9e3aa9ba-125b-11ed-8932-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_8be96f2d-125b-11ed-af30-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2BwMyj4biHxQyml1UuLOJe" .
+
+inst:nameIfcRoot_93afc802-125b-11ed-830d-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6037167_SchadenObjekt_1" .
+
+inst:nameIfcRoot_9dafdbc8-125b-11ed-9702-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9653659_SchadenObjekt_1" .
+
+inst:descriptionIfcRoot_8d6ac0f8-125b-11ed-924f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "SLAB" .
+
+inst:nameIfcRoot_8fc6d8e2-125b-11ed-8ff1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "4525177_SchadenObjekt_1" .
+
+inst:nameIfcRoot_9ac53f4a-125b-11ed-ad53-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "8241648_SchadenObjekt_2" .
+
+inst:buildingelement_8d0e4ad2-125b-11ed-8ba1-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_8d0e4ad2-125b-11ed-8ba1-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_8d0e4ad2-125b-11ed-8ba1-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_8d0e4ad2-125b-11ed-8ba1-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_96c079c7-125b-11ed-922f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7497924_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_9cc28acd-125b-11ed-b150-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2SmehD4biHxR5Gl1UuLOJe" .
+
+inst:globalIdIfcRoot_8b5e7765-125b-11ed-8246-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2BNdTb4biHxO96l1UuLOJe" .
+
+inst:globalIdIfcRoot_95f7878f-125b-11ed-b763-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2LzuUF4biHxRTZl1UuLOJe" .
+
+inst:descriptionIfcRoot_8c644543-125b-11ed-ba5f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "SUPERSTRUCTURE" .
+
+inst:nameIfcRoot_8d6ac0f8-125b-11ed-924f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3236107_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_957433a8-125b-11ed-9dc3-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2LT3Ee4biHxPt3l1UuLOJe" .
+
+inst:buildingelement_952dbdfe-125b-11ed-9d4b-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_952dbdfe-125b-11ed-9d4b-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_952dbdfe-125b-11ed-9d4b-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_9e9e7e59-125b-11ed-b99f-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_9e9e7e59-125b-11ed-b99f-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_9e9e7e59-125b-11ed-b99f-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_9e9e7e59-125b-11ed-b99f-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_8e343e19-125b-11ed-9f9f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2ED3uP4biHxP_Vl1UuLOJe" .
+
+inst:descriptionIfcRoot_a095f71e-125b-11ed-acc9-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "RAILING" .
+
+inst:globalIdIfcRoot_9dfe8535-125b-11ed-a70b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2T$eKr4biHxQSBl1UuLOJe" .
+
+inst:globalIdIfcRoot_9e3aa9ba-125b-11ed-8932-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2UEgcw4biHxOaol1UuLOJe" .
+
+inst:nameIfcRoot_92d3a23f-125b-11ed-973b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5872311_SchadenObjekt" .
+
+inst:buildingelement_9ac53f4a-125b-11ed-ad53-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9ac53f4a-125b-11ed-ad53-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9ac53f4a-125b-11ed-ad53-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:globalIdIfcRoot_995fe41e-125b-11ed-b95a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2PN_GU4biHxRbQl1UuLOJe" .
+
+inst:nameIfcRoot_8c644543-125b-11ed-ba5f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9168947_SchadenObjekt" .
+
+inst:buildingelement_9b9ea8d9-125b-11ed-bcfa-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9b9ea8d9-125b-11ed-bcfa-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9b9ea8d9-125b-11ed-bcfa-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:globalIdIfcRoot_8d0e4ad2-125b-11ed-8ba1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2D3ahI4biHxOkXl1UuLOJe" .
+
+inst:descriptionIfcRoot_a05b3d6b-125b-11ed-9937-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "RAILING" .
+
+inst:buildingelement_8dc69f8d-125b-11ed-a6f3-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_8dc69f8d-125b-11ed-a6f3-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_8dc69f8d-125b-11ed-a6f3-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_8dc69f8d-125b-11ed-a6f3-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_9c485754-125b-11ed-883f-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9c485754-125b-11ed-883f-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9c485754-125b-11ed-883f-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:descriptionIfcRoot_901d2238-125b-11ed-b5c6-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "GIRDER_SEGMENT" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8WrAvtEy" .
+
+inst:descriptionIfcRoot_9ee34782-125b-11ed-9002-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "RAILING" .
+
+inst:globalIdIfcRoot_952dbdfe-125b-11ed-9d4b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2LBRt_4biHxPrBl1UuLOJe" .
+
+inst:globalIdIfcRoot_9e9e7e59-125b-11ed-b99f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2UddvP4biHxRcVl1UuLOJe" .
+
+inst:nameIfcRoot_a05b3d6b-125b-11ed-9937-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7225812_SchadenObjekt" .
+
+inst:nameIfcRoot_9f2db59b-125b-11ed-aefc-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1259442_SchadenObjekt" .
+
+inst:descriptionIfcRoot_8be96f2d-125b-11ed-af30-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "SUPERSTRUCTURE" .
+
+inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf
+        bot:hasStorey          inst:storey_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        rdf:type               bot:Building ;
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf .
+
+inst:buildingelement_a095f71e-125b-11ed-acc9-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a095f71e-125b-11ed-acc9-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a095f71e-125b-11ed-acc9-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a095f71e-125b-11ed-acc9-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_99d3656a-125b-11ed-8035-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_99d3656a-125b-11ed-8035-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_99d3656a-125b-11ed-8035-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_99d3656a-125b-11ed-8035-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_9b9ea8d9-125b-11ed-bcfa-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2RdgZP4biHxRpwl1UuLOJe" .
+
+inst:nameIfcRoot_9ee34782-125b-11ed-9002-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9789338_SchadenObjekt_2" .
+
+inst:longNameIfcSpatialElement_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Basis 555,10" .
+
+inst:globalIdIfcRoot_8dc69f8d-125b-11ed-a6f3-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Dnf_D4biHxQRpl1UuLOJe" .
+
+inst:buildingelement_8ea34bf1-125b-11ed-92f9-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_8ea34bf1-125b-11ed-92f9-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_8ea34bf1-125b-11ed-92f9-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:elevationIfcBuildingStorey_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0."^^xsd:double .
+
+inst:globalIdIfcRoot_9c485754-125b-11ed-883f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2SI5TK4biHxOW$l1UuLOJe" .
+
+inst:descriptionIfcRoot_95f7878f-125b-11ed-b763-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "SLAB" .
+
+inst:nameIfcRoot_8be96f2d-125b-11ed-af30-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5476084_SchadenObjekt" .
+
+inst:buildingelement_901d2238-125b-11ed-b5c6-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_901d2238-125b-11ed-b5c6-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_901d2238-125b-11ed-b5c6-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_901d2238-125b-11ed-b5c6-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_9dfe8535-125b-11ed-a70b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "RAILING" .
+
+inst:nameIfcRoot_9cc28acd-125b-11ed-b150-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9383952_SchadenObjekt_2" .
+
+inst:descriptionIfcRoot_9e3aa9ba-125b-11ed-8932-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "RAILING" .
+
+inst:nameIfcRoot_8b5e7765-125b-11ed-8246-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3388340_SchadenObjekt" .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bf
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8WrAvtE$" .
+
+inst:nameIfcRoot_95f7878f-125b-11ed-b763-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7221687_SchadenObjekt_1" .
+
+inst:buildingelement_9fb68de8-125b-11ed-ae76-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9fb68de8-125b-11ed-ae76-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9fb68de8-125b-11ed-ae76-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:globalIdIfcRoot_99d3656a-125b-11ed-8035-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2PqsLg4biHxO0rl1UuLOJe" .
+
+inst:globalIdIfcRoot_a095f71e-125b-11ed-acc9-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2WbVSU4biHxQp9l1UuLOJe" .
+
+inst:descriptionIfcRoot_995fe41e-125b-11ed-b95a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "EDGEBEAM" .
+
+inst:site_49c24f44-9e59-46e7-a811-220d4ae773bc
+        bot:hasBuilding            inst:building_49c24f44-9e59-46e7-a811-220d4ae773bf ;
+        rdf:type                   bot:Site ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        props:nameIfcRoot          inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc ;
+        props:refElevationIfcSite  inst:refElevationIfcSite_49c24f44-9e59-46e7-a811-220d4ae773bc .
+
+inst:descriptionIfcRoot_8d0e4ad2-125b-11ed-8ba1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "GIRDER_SEGMENT" .
+
+inst:globalIdIfcRoot_8ea34bf1-125b-11ed-92f9-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Eeqln4biHxPBvl1UuLOJe" .
+
+inst:nameIfcRoot_957433a8-125b-11ed-9dc3-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6782285_SchadenObjekt" .
+
+inst:nameIfcRoot_8e343e19-125b-11ed-9f9f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3947832_SchadenObjekt_1" .
+
+inst:nameIfcRoot_9dfe8535-125b-11ed-a70b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9789338_SchadenObjekt_1" .
+
+inst:nameIfcRoot_9e3aa9ba-125b-11ed-8932-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9789338_SchadenObjekt_2" .
+
+inst:refElevationIfcSite_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "0."^^xsd:double .
+
+inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "19maz4dbb6vwWH8Wsr68h1" .
+
+inst:globalIdIfcRoot_901d2238-125b-11ed-b5c6-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2G7I8u4biHxRN6l1UuLOJe" .
+
+inst:buildingelement_98c803b3-125b-11ed-8918-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_98c803b3-125b-11ed-8918-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_98c803b3-125b-11ed-8918-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_98c803b3-125b-11ed-8918-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_9e9e7e59-125b-11ed-b99f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "RAILING" .
+
+inst:nameIfcRoot_8d0e4ad2-125b-11ed-8ba1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2684252_SchadenObjekt" .
+
+inst:globalIdIfcRoot_9fb68de8-125b-11ed-ae76-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Vjete4biHxQvsl1UuLOJe" .
+
+inst:buildingelement_8e343e19-125b-11ed-9f9f-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_8e343e19-125b-11ed-9f9f-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_8e343e19-125b-11ed-9f9f-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220d4ae773bc
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Default" .
+
+inst:buildingelement_9dfe8535-125b-11ed-a70b-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_9dfe8535-125b-11ed-a70b-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_9dfe8535-125b-11ed-a70b-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_9dfe8535-125b-11ed-a70b-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_952dbdfe-125b-11ed-9d4b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6750073_SchadenObjekt_2" .
+
+inst:nameIfcRoot_9e9e7e59-125b-11ed-b99f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9789338_SchadenObjekt_1" .
+
+inst:descriptionIfcRoot_8dc69f8d-125b-11ed-a6f3-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Widerlager_Wand_Vorne" .
+
+inst:buildingelement_976b5fd2-125b-11ed-a9f3-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_976b5fd2-125b-11ed-a9f3-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_976b5fd2-125b-11ed-a9f3-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_995fe41e-125b-11ed-b95a-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_995fe41e-125b-11ed-b95a-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_995fe41e-125b-11ed-b95a-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_995fe41e-125b-11ed-b95a-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_9a6050d6-125b-11ed-ba2e-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9a6050d6-125b-11ed-ba2e-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9a6050d6-125b-11ed-ba2e-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:globalIdIfcRoot_98c803b3-125b-11ed-8918-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Oo0Ep4biHxOaOl1UuLOJe" .
+
+inst:nameIfcRoot_9b9ea8d9-125b-11ed-bcfa-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9375066_SchadenObjekt_1" .
+
+inst:buildingelement_94aee9fb-125b-11ed-beda-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_94aee9fb-125b-11ed-beda-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_94aee9fb-125b-11ed-beda-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:nameIfcRoot_8dc69f8d-125b-11ed-a6f3-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "3460772_SchadenObjekt" .
+
+inst:buildingelement_9116b5cb-125b-11ed-ade6-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9116b5cb-125b-11ed-ade6-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9116b5cb-125b-11ed-ade6-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:nameIfcRoot_9c485754-125b-11ed-883f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9383952_SchadenObjekt_1" .
+
+inst:descriptionIfcRoot_99d3656a-125b-11ed-8035-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Widerlager_Wand_Hinten" .
+
+inst:globalIdIfcRoot_976b5fd2-125b-11ed-a9f3-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2NQr$I4biHxQdpl1UuLOJe" .
+
+inst:buildingelement_91be90c4-125b-11ed-9422-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_91be90c4-125b-11ed-9422-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_91be90c4-125b-11ed-9422-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_9f620f43-125b-11ed-a5f4-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9f620f43-125b-11ed-a5f4-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9f620f43-125b-11ed-a5f4-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_a00c4202-125b-11ed-8fdf-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_a00c4202-125b-11ed-8fdf-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_a00c4202-125b-11ed-8fdf-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:globalIdIfcRoot_9a6050d6-125b-11ed-ba2e-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2QO53M4biHxRekl1UuLOJe" .
+
+inst:nameIfcRoot_a095f71e-125b-11ed-acc9-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7225812_SchadenObjekt" .
+
+inst:buildingelement_92435db8-125b-11ed-b5bf-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_92435db8-125b-11ed-b5bf-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_92435db8-125b-11ed-b5bf-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_941c6e0b-125b-11ed-bcf8-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_941c6e0b-125b-11ed-bcf8-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_941c6e0b-125b-11ed-bcf8-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:nameIfcRoot_99d3656a-125b-11ed-8035-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7993913_SchadenObjekt" .
+
+inst:globalIdIfcRoot_8ccae7b4-125b-11ed-94c8-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2CokUq4biHxPJ8l1UuLOJe" .
+
+inst:globalIdIfcRoot_a1141f7e-125b-11ed-866e-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2X51z_4biHxOPkl1UuLOJe" .
+
+inst:globalIdIfcRoot_94aee9fb-125b-11ed-beda-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Khkdx4biHxRxQl1UuLOJe" .
+
+inst:globalIdIfcRoot_9116b5cb-125b-11ed-ade6-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2H5hNB4biHxQtcl1UuLOJe" .
+
+inst:nameIfcRoot_8ea34bf1-125b-11ed-92f9-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "4156921_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_8ee82805-125b-11ed-9c6e-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Ew2W54biHxPnkl1UuLOJe" .
+
+inst:buildingelement_93afc802-125b-11ed-830d-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_93afc802-125b-11ed-830d-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_93afc802-125b-11ed-830d-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:buildingelement_9dafdbc8-125b-11ed-9702-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_9dafdbc8-125b-11ed-9702-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_9dafdbc8-125b-11ed-9702-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_9dafdbc8-125b-11ed-9702-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Basis 555,10" .
+
+inst:buildingelement_8fc6d8e2-125b-11ed-8ff1-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_8fc6d8e2-125b-11ed-8ff1-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_8fc6d8e2-125b-11ed-8ff1-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:globalIdIfcRoot_91be90c4-125b-11ed-9422-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Hlf344biHxPGYl1UuLOJe" .
+
+inst:buildingelement_96c079c7-125b-11ed-922f-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_96c079c7-125b-11ed-922f-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_96c079c7-125b-11ed-922f-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:globalIdIfcRoot_9f620f43-125b-11ed-a5f4-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2VOWz34biHxQNql1UuLOJe" .
+
+inst:nameIfcRoot_901d2238-125b-11ed-b5c6-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "4756257_SchadenObjekt" .
+
+inst:globalIdIfcRoot_a00c4202-125b-11ed-8fdf-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2W34824biHxO$Vl1UuLOJe" .
+
+inst:nameIfcRoot_9fb68de8-125b-11ed-ae76-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1397923_SchadenObjekt" .
+
+inst:globalIdIfcRoot_941c6e0b-125b-11ed-bcf8-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2K76uB4biHxRpul1UuLOJe" .
+
+inst:globalIdIfcRoot_92435db8-125b-11ed-b5bf-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2IGrsu4biHxRM$l1UuLOJe" .
+
+inst:buildingelement_8d6ac0f8-125b-11ed-924f-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_8d6ac0f8-125b-11ed-924f-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_8d6ac0f8-125b-11ed-924f-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_8d6ac0f8-125b-11ed-924f-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_98c803b3-125b-11ed-8918-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "SUPERSTRUCTURE" .
+
+inst:buildingelement_92d3a23f-125b-11ed-973b-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_92d3a23f-125b-11ed-973b-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_92d3a23f-125b-11ed-973b-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:globalIdIfcRoot_93afc802-125b-11ed-830d-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2JhyW24biHxOCDl1UuLOJe" .
+
+inst:globalIdIfcRoot_9dafdbc8-125b-11ed-9702-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Thzl84biHxPS2l1UuLOJe" .
+
+inst:buildingelement_8c644543-125b-11ed-ba5f-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_8c644543-125b-11ed-ba5f-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_8c644543-125b-11ed-ba5f-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_8c644543-125b-11ed-ba5f-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_8fc6d8e2-125b-11ed-8ff1-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2FnjZY4biHxO$nl1UuLOJe" .
+
+inst:globalIdIfcRoot_9ac53f4a-125b-11ed-ad53-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2QnJzA4biHxQrJl1UuLOJe" .
+
+inst:globalIdIfcRoot_96c079c7-125b-11ed-922f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Mm7d74biHxP8ll1UuLOJe" .
+
+inst:nameIfcRoot_98c803b3-125b-11ed-8918-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7614202_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_8d6ac0f8-125b-11ed-924f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2DQi3u4biHxP9Fl1UuLOJe" .
+
+inst:descriptionIfcRoot_8b5e7765-125b-11ed-8246-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "SUPERSTRUCTURE" .
+
+inst:buildingelement_a05b3d6b-125b-11ed-9937-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_a05b3d6b-125b-11ed-9937-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_a05b3d6b-125b-11ed-9937-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_a05b3d6b-125b-11ed-9937-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_8ccae7b4-125b-11ed-94c8-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "EDGEBEAM" .
+
+inst:nameIfcRoot_976b5fd2-125b-11ed-a9f3-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7497924_SchadenObjekt_2" .
+
+inst:globalIdIfcRoot_92d3a23f-125b-11ed-973b-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2Iqw8$4biHxPSxl1UuLOJe" .
+
+inst:buildingelement_9f2db59b-125b-11ed-aefc-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9f2db59b-125b-11ed-aefc-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9f2db59b-125b-11ed-aefc-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:objectTypeIfcObject_49c24f44-9e59-46e7-a811-220db5188ac1
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "Ebene:Ebene 1" .
+
+inst:nameIfcRoot_995fe41e-125b-11ed-b95a-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "7623909_SchadenObjekt_1" .
+
+inst:nameIfcRoot_9a6050d6-125b-11ed-ba2e-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "8241648_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_8c644543-125b-11ed-ba5f-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2CP4L34biHxRfVl1UuLOJe" .
+
+inst:buildingelement_9ee34782-125b-11ed-9002-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_9ee34782-125b-11ed-9002-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_9ee34782-125b-11ed-9002-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_9ee34782-125b-11ed-9002-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:nameIfcRoot_8ccae7b4-125b-11ed-94c8-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1644144_SchadenObjekt_1" .
+
+inst:nameIfcRoot_a1141f7e-125b-11ed-866e-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "9018781_SchadenObjekt" .
+
+inst:nameIfcRoot_94aee9fb-125b-11ed-beda-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "6750073_SchadenObjekt_1" .
+
+inst:nameIfcRoot_9116b5cb-125b-11ed-ade6-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5587413_SchadenObjekt_1" .
+
+inst:nameIfcRoot_8ee82805-125b-11ed-9c6e-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "4156921_SchadenObjekt_2" .
+
+inst:buildingelement_8be96f2d-125b-11ed-af30-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_8be96f2d-125b-11ed-af30-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_8be96f2d-125b-11ed-af30-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_8be96f2d-125b-11ed-af30-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:globalIdIfcRoot_a05b3d6b-125b-11ed-9937-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2WMprh4biHxPatl1UuLOJe" .
+
+inst:nameIfcRoot_91be90c4-125b-11ed-9422-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5590723_SchadenObjekt_1" .
+
+inst:globalIdIfcRoot_9f2db59b-125b-11ed-aefc-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "2VBRMR4biHxQxyl1UuLOJe" .
+
+inst:storey_49c24f44-9e59-46e7-a811-220db5188ac1
+        bot:containsElement        inst:buildingelement_8c644543-125b-11ed-ba5f-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_901d2238-125b-11ed-b5c6-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_92d3a23f-125b-11ed-973b-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9ee34782-125b-11ed-9002-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a05b3d6b-125b-11ed-9937-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9f2db59b-125b-11ed-aefc-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8ccae7b4-125b-11ed-94c8-bc17b85584e8 ;
+        props:nameIfcRoot          inst:nameIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_96c079c7-125b-11ed-922f-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_93afc802-125b-11ed-830d-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8be96f2d-125b-11ed-af30-bc17b85584e8 ;
+        props:elevationIfcBuildingStorey  inst:elevationIfcBuildingStorey_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_957433a8-125b-11ed-9dc3-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9dafdbc8-125b-11ed-9702-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8ea34bf1-125b-11ed-92f9-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8fc6d8e2-125b-11ed-8ff1-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9dfe8535-125b-11ed-a70b-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8dc69f8d-125b-11ed-a6f3-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_99d3656a-125b-11ed-8035-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_95f7878f-125b-11ed-b763-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a095f71e-125b-11ed-acc9-bc17b85584e8 ;
+        props:longNameIfcSpatialElement  inst:longNameIfcSpatialElement_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_941c6e0b-125b-11ed-bcf8-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_94aee9fb-125b-11ed-beda-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9116b5cb-125b-11ed-ade6-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_952dbdfe-125b-11ed-9d4b-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9f620f43-125b-11ed-a5f4-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9fb68de8-125b-11ed-ae76-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9a6050d6-125b-11ed-ba2e-bc17b85584e8 ;
+        props:objectTypeIfcObject  inst:objectTypeIfcObject_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_9e3aa9ba-125b-11ed-8932-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_98c803b3-125b-11ed-8918-bc17b85584e8 ;
+        rdf:type                   bot:Storey ;
+        bot:containsElement        inst:buildingelement_a1141f7e-125b-11ed-866e-bc17b85584e8 ;
+        props:globalIdIfcRoot      inst:globalIdIfcRoot_49c24f44-9e59-46e7-a811-220db5188ac1 ;
+        bot:containsElement        inst:buildingelement_9e9e7e59-125b-11ed-b99f-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_995fe41e-125b-11ed-b95a-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8d6ac0f8-125b-11ed-924f-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_92435db8-125b-11ed-b5bf-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9b9ea8d9-125b-11ed-bcfa-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8ee82805-125b-11ed-9c6e-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_a00c4202-125b-11ed-8fdf-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_91be90c4-125b-11ed-9422-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_976b5fd2-125b-11ed-a9f3-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8b5e7765-125b-11ed-8246-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9ac53f4a-125b-11ed-ad53-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8e343e19-125b-11ed-9f9f-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_8d0e4ad2-125b-11ed-8ba1-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9c485754-125b-11ed-883f-bc17b85584e8 ;
+        bot:containsElement        inst:buildingelement_9cc28acd-125b-11ed-b150-bc17b85584e8 .
+
+inst:nameIfcRoot_9f620f43-125b-11ed-a5f4-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "1259442_SchadenObjekt" .
+
+inst:buildingelement_9cc28acd-125b-11ed-b150-bc17b85584e8
+        props:globalIdIfcRoot  inst:globalIdIfcRoot_9cc28acd-125b-11ed-b150-bc17b85584e8 ;
+        props:nameIfcRoot      inst:nameIfcRoot_9cc28acd-125b-11ed-b150-bc17b85584e8 ;
+        rdf:type               bot:Element .
+
+inst:nameIfcRoot_a00c4202-125b-11ed-8fdf-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "5173251_SchadenObjekt" .
+
+inst:buildingelement_8b5e7765-125b-11ed-8246-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_8b5e7765-125b-11ed-8246-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_8b5e7765-125b-11ed-8246-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_8b5e7765-125b-11ed-8246-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:buildingelement_95f7878f-125b-11ed-b763-bc17b85584e8
+        props:globalIdIfcRoot     inst:globalIdIfcRoot_95f7878f-125b-11ed-b763-bc17b85584e8 ;
+        props:nameIfcRoot         inst:nameIfcRoot_95f7878f-125b-11ed-b763-bc17b85584e8 ;
+        props:descriptionIfcRoot  inst:descriptionIfcRoot_95f7878f-125b-11ed-b763-bc17b85584e8 ;
+        rdf:type                  bot:Element .
+
+inst:descriptionIfcRoot_9dafdbc8-125b-11ed-9702-bc17b85584e8
+        rdf:type      <https://w3id.org/opm#Property> ;
+        schema:value  "SUPERSTRUCTURE" .

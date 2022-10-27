@@ -1,0 +1,1144 @@
+@prefix ct: <https://standards.iso.org/iso/21597/-1/ed-1/en/Container#> .
+@prefix index: <https://asbingowl.org/TwinGenDemo/index#> .
+@prefix link: <https://asbingowl.org/TwinGenDemo/links#> .
+@prefix ls: <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sib: <http://example.org/sibbw0000000#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://asbingowl.org/TwinGenDemo/links> a owl:Ontology ;
+    owl:imports <https://asbingowl.org/TwinGenDemo/index>,
+        <https://standards.iso.org/iso/21597/-1/ed-1/en/Container>,
+        <https://standards.iso.org/iso/21597/-1/ed-1/en/Linkset> .
+
+link:069f8243-6054-4b1f-9f33-162fa79dd174 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.916794"^^xsd:dateTime ;
+    ls:hasLinkElement link:2e6ff29a-00f4-433e-bd75-8f8bb64752d3,
+        link:68b18fec-f5e5-4cca-a4c6-0d5554cc716a .
+
+link:13c106b3-b130-4602-a758-df8633abdc71 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.937170"^^xsd:dateTime ;
+    ls:hasLinkElement link:3f6b868e-bdb2-4298-8ad3-bdf5f80df40d,
+        link:98997442-3506-4c9e-8b32-50a30b224972 .
+
+link:19099662-c4e8-4297-89ae-da30bc7d4695 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.495515"^^xsd:dateTime ;
+    ls:hasLinkElement link:15273402-7591-42ab-b0ec-951516f06190,
+        link:eb5382fe-46d9-4b51-81a6-cea3f870b43e .
+
+link:1cf19992-aabe-49bb-93df-db4b7da2bacd a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.796268"^^xsd:dateTime ;
+    ls:hasLinkElement link:830010e7-72f1-4d44-b778-ea9b1c624318,
+        link:93d6a8b8-080c-4fe0-b7d4-ba04471afbf7 .
+
+link:1eba07d1-5388-4080-ad69-1ddb45795cb7 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.295630"^^xsd:dateTime ;
+    ls:hasLinkElement link:630a4ac4-39cb-4d82-af6a-560d6e995dac,
+        link:ac7c5315-6ba5-450c-bb86-75efd0db1717 .
+
+link:220951fb-06de-483f-8520-f4bd22bb0c58 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.410210"^^xsd:dateTime ;
+    ls:hasLinkElement link:b2f5b418-1028-4e98-8653-605507d99ee5,
+        link:de5f9b55-7d2a-465b-b2cd-a2da6529a64d .
+
+link:27a1c2ed-5f6f-4953-873b-7df7fe1e303e a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.883854"^^xsd:dateTime ;
+    ls:hasLinkElement link:497a5129-f00b-4d27-a921-3af11833c7a4,
+        link:f92f9399-3040-4f57-bf04-d5fbf0809e75 .
+
+link:2f2399b9-0867-4a61-96a6-ccc5a1abc7d8 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.900215"^^xsd:dateTime ;
+    ls:hasLinkElement link:b602a7e1-faae-4706-bb0d-73188f881046,
+        link:c6989e00-07de-45a1-a2d5-9ad3a7527f45 .
+
+link:2fa949fb-2839-4052-99fa-0bbe8efded74 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.943149"^^xsd:dateTime ;
+    ls:hasLinkElement link:68e664cb-6764-4791-8836-681d2eca7900,
+        link:72aabff9-ab7f-44e4-a747-ccdc80092b81 .
+
+link:31423b81-88bc-41dd-8853-1126ba559a4f a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.870109"^^xsd:dateTime ;
+    ls:hasLinkElement link:64dd6bd5-3759-46c3-a124-486c1d1d4f7b,
+        link:a2c4b173-fb1e-439c-b151-386a4062fce9 .
+
+link:3452d251-2c90-4d52-b236-b38c96cd9a41 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.310603"^^xsd:dateTime ;
+    ls:hasLinkElement link:12f578d9-86e8-4c79-8b45-8573bcf6ee42,
+        link:1902f9cf-7f17-4882-9cb7-57783b003906 .
+
+link:3496b01b-db2c-474b-83e9-8db1e5d29736 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.858266"^^xsd:dateTime ;
+    ls:hasLinkElement link:89c930b4-6a76-4a0b-91c6-abc6b4fa423e,
+        link:e669972c-0f58-4d51-984d-72c453d9228a .
+
+link:3dc9efd0-3cdc-4506-bcf1-736ff13d5c2c a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.552523"^^xsd:dateTime ;
+    ls:hasLinkElement link:97894a1c-04bd-4e2a-b806-82d44924efa4,
+        link:c29be33d-a243-4f04-9b43-35a72546a815 .
+
+link:44d0ca87-1828-4f85-a491-ce25888b19fc a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.389190"^^xsd:dateTime ;
+    ls:hasLinkElement link:d4783d11-87de-43dc-98e6-02252da63a5a,
+        link:e662e60a-6f50-4045-9a31-62f796b22445 .
+
+link:4bb67273-ac39-4e48-85c1-c7e2bce51956 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.455066"^^xsd:dateTime ;
+    ls:hasLinkElement link:a636d524-cf07-4c1e-a3f3-5c1860828ca1,
+        link:b9a1e5cd-14c3-4ab0-9285-34e1932128bc .
+
+link:4d269890-a492-4470-824c-2df8cc975751 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.681167"^^xsd:dateTime ;
+    ls:hasLinkElement link:a3d554f6-7cbb-4549-8c72-f648762bed25,
+        link:c8efc5ff-91ee-414f-b4de-1e1dba5ceabc .
+
+link:4d486f97-8494-457d-ac4b-0c0eaf34e970 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.695572"^^xsd:dateTime ;
+    ls:hasLinkElement link:54ce3481-b785-47ec-8cd6-a9e00b18ae91,
+        link:edb3478f-dbc2-4d1f-8eaa-78112d49e1e6 .
+
+link:4f2f42a3-26d9-405c-b93b-0fe724daa70d a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.876786"^^xsd:dateTime ;
+    ls:hasLinkElement link:6655ef73-1224-4752-b41b-5aabc3b103ec,
+        link:b64a2565-706a-4ad9-98db-1cad870f9648 .
+
+link:59761cb3-d7c9-40cb-9192-8a0c2b04104c a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.828321"^^xsd:dateTime ;
+    ls:hasLinkElement link:9bfc8856-0a79-4285-8715-8f307e305877,
+        link:e3e18be9-2ffc-417d-9a9e-09053de452da .
+
+link:5b1034e2-40b3-40a8-932d-8a4f28237a7f a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.667205"^^xsd:dateTime ;
+    ls:hasLinkElement link:6cad6295-638d-4884-b3b1-278cf7dbb085,
+        link:927348ce-b3ce-4658-a668-249b28364a65 .
+
+link:65259335-5324-499b-899a-a36cde258919 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.813211"^^xsd:dateTime ;
+    ls:hasLinkElement link:a359ab43-0eca-473c-bc13-371b6c357b8a,
+        link:b1ed08f5-d698-44c5-939e-b340b948f5fe .
+
+link:6b43122d-be57-4068-9a3e-3f9c2a9daaef a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.751637"^^xsd:dateTime ;
+    ls:hasLinkElement link:06112c37-d8da-4a97-9c77-f361dc2c997f,
+        link:3c638453-7f0c-4813-97f7-1170b1b79257 .
+
+link:707cfff4-7e59-42ff-920f-272af7e89f13 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.440105"^^xsd:dateTime ;
+    ls:hasLinkElement link:aadd3d3b-795d-43d4-8548-ec4c83f13412,
+        link:d933f2ed-97b8-46fc-b089-5c5e700a681c .
+
+link:75de2a84-e0e3-42bc-af65-86e5bbbf1da0 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.396245"^^xsd:dateTime ;
+    ls:hasLinkElement link:9f29b5d6-ad2f-48ed-9ecd-9094235235e4,
+        link:a23eaf8f-c604-44e3-9e09-74c62a8ecd4e .
+
+link:7e8f86e6-2877-427d-b390-6c7f923b385c a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.948132"^^xsd:dateTime ;
+    ls:hasLinkElement link:1b13f679-79e4-480b-a2f1-3b62dab0daee,
+        link:c80815ac-d3bf-4efc-b955-ee899c009c1d .
+
+link:8331b098-066b-4a9b-879d-37e9a57c29b5 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.726064"^^xsd:dateTime ;
+    ls:hasLinkElement link:63beae01-0f0a-4247-85b5-e2ddf0b60a47,
+        link:7fb65696-d68f-4393-9262-26ec06af78ea .
+
+link:83edc5dd-a588-4ca4-b7cf-ba9d87fe79e9 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.424697"^^xsd:dateTime ;
+    ls:hasLinkElement link:48fa5e5b-6865-48c1-895f-6076e51be0ea,
+        link:e914c958-34f6-4a81-8e67-3eeaa0a45be4 .
+
+link:84a54a74-d594-4a52-8c9c-896517f92cd6 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.465980"^^xsd:dateTime ;
+    ls:hasLinkElement link:09b7074f-a772-43c1-a5b7-a486837748c3,
+        link:358374a0-c242-41b1-a396-6e79e9815c6c .
+
+link:85a96621-a571-4747-b3bd-9483c6351477 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.954117"^^xsd:dateTime ;
+    ls:hasLinkElement link:edef7c70-99ae-4cd5-aea3-a6a7bdb36a79,
+        link:fd00131d-664d-4160-bd97-3af1a0002fa5 .
+
+link:91dba829-7432-42a4-b47b-d543b9c8fa0c a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.931777"^^xsd:dateTime ;
+    ls:hasLinkElement link:3fb78f96-a137-48a5-88fb-0761527339de,
+        link:9a0f1a51-70d0-436f-8da2-40a96034efdf .
+
+link:98366c10-10f9-4498-b5c6-e20763a74dd3 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.844857"^^xsd:dateTime ;
+    ls:hasLinkElement link:b7c23e9c-a2c7-4f58-85f6-d785a6ffc5a4,
+        link:f4094f00-ae2f-4d7c-9fcb-c42ba510e8e8 .
+
+link:9e5eb9de-5299-40fe-aab6-b50793c1fac4 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.963366"^^xsd:dateTime ;
+    ls:hasLinkElement link:9a68451b-bc37-46f3-a9e9-962a294ae086,
+        link:dc171ded-83b8-4985-9183-4f6d5534dfe9 .
+
+link:9f242517-6235-42de-a764-61b93e95e510 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.781326"^^xsd:dateTime ;
+    ls:hasLinkElement link:47b9c177-44a2-4b7b-b894-54d46f51ee96,
+        link:7f0cf927-c73e-4507-aecd-f4cf068bc6e8 .
+
+link:a44fa5a6-af3b-4f71-8ea5-1d42dd736ad0 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.041896"^^xsd:dateTime ;
+    ls:hasLinkElement link:083f696b-ec22-42dd-b3e2-24d1c652fc2f,
+        link:6015289e-f8e8-46a6-9d80-a07c89091f2a .
+
+link:a91696d7-75da-4534-85b7-df951ded3959 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.940163"^^xsd:dateTime ;
+    ls:hasLinkElement link:110a497e-8d69-47a1-9f8e-b3f9dfbd3455,
+        link:de1db8d0-2896-46fd-a3df-1998cc574d3e .
+
+link:abdae49f-acef-4a1d-925c-973b047512b5 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.713027"^^xsd:dateTime ;
+    ls:hasLinkElement link:35497ef4-04cd-407f-a42d-654ef0c2bebb,
+        link:5a6ea4d3-332f-427e-8692-2cda6ae730d7 .
+
+link:c6538413-d4ad-4776-883b-1f754a1ecdf6 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.278714"^^xsd:dateTime ;
+    ls:hasLinkElement link:4bb38a3c-a1c6-42e9-b77f-3b6dfc45f336,
+        link:749e2ddc-5bb5-4c4c-8fd7-10a18b704647 .
+
+link:c7611544-8e27-4e65-ac95-7f9c056c348a a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.357317"^^xsd:dateTime ;
+    ls:hasLinkElement link:43b793d4-c7dc-45cd-82ea-e5e1bb44ee36,
+        link:44763ad8-31c4-4133-9acd-083d583601a1 .
+
+link:c7ec9a1c-7c76-4ea6-adb1-dd0a54b49943 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.505889"^^xsd:dateTime ;
+    ls:hasLinkElement link:21e38642-fe82-43d7-bdfd-a3300993d603,
+        link:aed2e361-94df-4e45-a4bc-bef4639a8e63 .
+
+link:ccadb8a0-6e79-4a3e-999c-801bb85bea86 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.766731"^^xsd:dateTime ;
+    ls:hasLinkElement link:37c56e70-a9ac-4380-a97d-855c1e7a9e70,
+        link:c6aa8c48-6cd2-4840-9351-a226031b5146 .
+
+link:ccfa72ea-7d8c-4c87-b186-2c7e8e6eb59e a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.951136"^^xsd:dateTime ;
+    ls:hasLinkElement link:72bead6a-4771-4cbc-afc4-a98c4c5c5a2f,
+        link:e0bf8404-9bda-4f36-8005-d04e8ddfdb06 .
+
+link:d2508bda-9079-43b6-9a1c-85659e4a75e8 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.737038"^^xsd:dateTime ;
+    ls:hasLinkElement link:21621840-63f6-4ce3-acb7-9dff871fc779,
+        link:ff7dcb95-bc0b-4704-84d5-cfd35b18ff30 .
+
+link:d924f241-0dd0-41d8-b64e-d42a83e722a9 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.977655"^^xsd:dateTime ;
+    ls:hasLinkElement link:4a707370-2df6-4378-8e03-175a6e719dde,
+        link:747d4ce9-7707-466f-93c0-d0ddb939b16b .
+
+link:dec5f2e8-a121-48c8-aab4-eb79a1941b2b a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.372221"^^xsd:dateTime ;
+    ls:hasLinkElement link:b567240d-90f8-41d7-abc5-f47bfbb8f953,
+        link:cc23a6fe-7c6e-4efd-ae0d-db96625cf084 .
+
+link:e398cf07-2564-4070-a62a-209df49c3efb a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.946137"^^xsd:dateTime ;
+    ls:hasLinkElement link:61831528-0981-4459-9fbf-813d0364d189,
+        link:78847679-d5df-483b-850f-93c023f55ad4 .
+
+link:e4fd86ab-d8fd-4c8a-a2a8-43b2637d58d7 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.342184"^^xsd:dateTime ;
+    ls:hasLinkElement link:7754c5d2-5393-4eb7-accc-e1a71fbcd385,
+        link:f36bfb44-c3a7-405c-be4b-18a355036ecb .
+
+link:f6e9469b-3565-4dc3-b54a-8e45296958c1 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.326681"^^xsd:dateTime ;
+    ls:hasLinkElement link:32495c15-4691-4aee-8320-d7486473fc4e,
+        link:de5742e6-b4b9-4476-87e0-02f14af8fb18 .
+
+link:fa8c4c44-d6a6-49ea-95ba-3c9097c84e36 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.949395"^^xsd:dateTime ;
+    ls:hasLinkElement link:85ea5f42-4005-4546-93c3-5bf21c1e6224,
+        link:adee7f38-9b0a-4894-8821-2b62b76e0e97 .
+
+link:01f6ec11-220f-400b-ae2a-b6b61d6e4cb9 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.454074"^^xsd:dateTime ;
+    ls:uri sib:NJ0OV159_Schaden .
+
+link:06112c37-d8da-4a97-9c77-f361dc2c997f a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.750640"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:31bf5bfe-9c22-43d8-a2b5-1ee3a3c18e57 .
+
+link:072c678b-6653-4f73-95df-2b0ce5145905 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.667205"^^xsd:dateTime ;
+    ls:uri sib:NY0MHN2M_Schaden .
+
+link:083f696b-ec22-42dd-b3e2-24d1c652fc2f a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.040899"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:b2f02d43-3a89-4da4-8d72-e3cc34850ec8 .
+
+link:09b7074f-a772-43c1-a5b7-a486837748c3 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.464983"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:132ce938-7289-4d45-be53-127d07d0bd1f .
+
+link:110a497e-8d69-47a1-9f8e-b3f9dfbd3455 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.939165"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:8e48bde2-8bd1-40c9-a329-15a96b0d6fa5 .
+
+link:12f578d9-86e8-4c79-8b45-8573bcf6ee42 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.310603"^^xsd:dateTime ;
+    ls:hasDocument index:06d961d7-3d35-48dd-895e-e6a4be4e1f89 .
+
+link:132ce938-7289-4d45-be53-127d07d0bd1f a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.464983"^^xsd:dateTime ;
+    ls:uri sib:NJ0OXZBA_Schaden .
+
+link:15273402-7591-42ab-b0ec-951516f06190 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.495515"^^xsd:dateTime ;
+    ls:hasDocument index:7ecbf39c-8349-4a85-a4a1-d3558dcf2e7a .
+
+link:1902f9cf-7f17-4882-9cb7-57783b003906 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.309607"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:eb87fac3-12f9-4d02-bb0d-5ebd67edb6e6 .
+
+link:1b13f679-79e4-480b-a2f1-3b62dab0daee a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.948132"^^xsd:dateTime ;
+    ls:hasDocument index:db6d69da-f9dd-45d4-8655-3d94294ca955 .
+
+link:1c01a039-628d-4af1-b68b-90a634a7a5c7 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.931777"^^xsd:dateTime ;
+    ls:uri sib:RE0VWAL2_Schaden .
+
+link:1d584b16-e034-4308-9bf9-ff53bb0b91ef a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.948132"^^xsd:dateTime ;
+    ls:uri sib:VC0HAVTB_PruefungMitZustandsnote .
+
+link:21621840-63f6-4ce3-acb7-9dff871fc779 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.737038"^^xsd:dateTime ;
+    ls:hasDocument index:a520b756-2e09-40ed-949b-91c7b8102176 .
+
+link:21e38642-fe82-43d7-bdfd-a3300993d603 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.504920"^^xsd:dateTime ;
+    ls:hasDocument index:7ecbf39c-8349-4a85-a4a1-d3558dcf2e7a .
+
+link:2584230a-3768-473a-93d2-cb3ef64dc8c1 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.937170"^^xsd:dateTime ;
+    ls:uri sib:ZD0ILASC_PruefungMitZustandsnote .
+
+link:2b4acd64-5d97-46f0-b8ee-ab97e5ad8a58 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.278714"^^xsd:dateTime ;
+    ls:uri sib:NJ0JTSH5_Schaden .
+
+link:2e6ff29a-00f4-433e-bd75-8f8bb64752d3 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.915796"^^xsd:dateTime ;
+    ls:hasDocument index:88ce4c52-db34-4677-8440-95fb0acd58d7 .
+
+link:2e8303ed-fc94-415c-a4ef-7915cefdc76d a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.954117"^^xsd:dateTime ;
+    ls:uri sib:VC0HAVTB_PruefungMitZustandsnote .
+
+link:2ef03574-6439-479b-b89f-1aa3a5c3de46 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.695572"^^xsd:dateTime ;
+    ls:uri sib:RE0UU0J5_Schaden .
+
+link:31bf5bfe-9c22-43d8-a2b5-1ee3a3c18e57 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.751637"^^xsd:dateTime ;
+    ls:uri sib:NY0LREJE_Schaden .
+
+link:3240a07c-e902-488d-8b81-e340f6bc8405 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.948397"^^xsd:dateTime ;
+    ls:uri sib:RE0WAQC0_Schaden .
+
+link:32495c15-4691-4aee-8320-d7486473fc4e a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.325684"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:4b537387-0512-482c-bc3b-6e3f0eb61de4 .
+
+link:35497ef4-04cd-407f-a42d-654ef0c2bebb a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.711533"^^xsd:dateTime ;
+    ls:hasDocument index:edf31376-7791-4885-bbb1-77d203405d79 .
+
+link:358374a0-c242-41b1-a396-6e79e9815c6c a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.465980"^^xsd:dateTime ;
+    ls:hasDocument index:fb49373e-d42a-4f42-987b-5cc157bd1070 .
+
+link:37c56e70-a9ac-4380-a97d-855c1e7a9e70 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.765734"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:97291d2e-01f2-4723-a841-f7b3c4f49b30 .
+
+link:3c638453-7f0c-4813-97f7-1170b1b79257 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.751637"^^xsd:dateTime ;
+    ls:hasDocument index:97e99582-b7e3-4f56-822d-bcfe05054429 .
+
+link:3f6b868e-bdb2-4298-8ad3-bdf5f80df40d a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.937170"^^xsd:dateTime ;
+    ls:hasDocument index:10299d8e-0561-49aa-91e0-ab4b11f470e0 .
+
+link:3fb78f96-a137-48a5-88fb-0761527339de a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.931777"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:1c01a039-628d-4af1-b68b-90a634a7a5c7 .
+
+link:40c4c530-3ec4-477b-92c3-048f824835d3 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.551526"^^xsd:dateTime ;
+    ls:uri sib:VC0LMXQD_Schaden .
+
+link:41db8433-40f2-4659-80f4-42c63211f022 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.372221"^^xsd:dateTime ;
+    ls:uri sib:NJ0MOT2S_Schaden .
+
+link:43b793d4-c7dc-45cd-82ea-e5e1bb44ee36 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.356295"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:ab842cf0-31c8-4565-abeb-736f0e9b75f5 .
+
+link:44763ad8-31c4-4133-9acd-083d583601a1 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.357317"^^xsd:dateTime ;
+    ls:hasDocument index:8d8a6cb3-76bc-4a58-ba89-3f1e5898aa2e .
+
+link:47b9c177-44a2-4b7b-b894-54d46f51ee96 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.780324"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:6e862a70-044f-43f9-9ca5-ca97d0fa2161 .
+
+link:48fa5e5b-6865-48c1-895f-6076e51be0ea a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.423619"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:f2b04294-e6ed-4c64-85e6-439520dd6847 .
+
+link:497a5129-f00b-4d27-a921-3af11833c7a4 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.883854"^^xsd:dateTime ;
+    ls:hasDocument index:e2e82902-4496-4d02-bb7e-244183e1d87e .
+
+link:4a707370-2df6-4378-8e03-175a6e719dde a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.976657"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:cb8d8dda-2516-4563-9edb-7558e7f01235 .
+
+link:4b537387-0512-482c-bc3b-6e3f0eb61de4 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.325684"^^xsd:dateTime ;
+    ls:uri sib:NJ0LOAVL_Schaden .
+
+link:4bb38a3c-a1c6-42e9-b77f-3b6dfc45f336 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.277698"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:2b4acd64-5d97-46f0-b8ee-ab97e5ad8a58 .
+
+link:53b800e4-4557-4191-b673-aae670d2f8ad a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.900215"^^xsd:dateTime ;
+    ls:uri sib:NY0MCCII_Schaden .
+
+link:54ce3481-b785-47ec-8cd6-a9e00b18ae91 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.695572"^^xsd:dateTime ;
+    ls:hasDocument index:1a0a6ab8-cecc-4c26-b245-522b0abb99cc .
+
+link:563fd643-0a32-4e61-828a-edb2770ff53a a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.711533"^^xsd:dateTime ;
+    ls:uri sib:RE0VOHJV_Schaden .
+
+link:5a6ea4d3-332f-427e-8692-2cda6ae730d7 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.711533"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:563fd643-0a32-4e61-828a-edb2770ff53a .
+
+link:6015289e-f8e8-46a6-9d80-a07c89091f2a a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.041896"^^xsd:dateTime ;
+    ls:hasDocument index:6b566171-2856-46cb-95f5-354d28012f93 .
+
+link:61831528-0981-4459-9fbf-813d0364d189 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.945139"^^xsd:dateTime ;
+    ls:hasDocument index:6945b836-d616-415d-a588-c6f77276b739 .
+
+link:630a4ac4-39cb-4d82-af6a-560d6e995dac a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.294638"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:f7cb7dd6-0697-4f06-8611-8b5b226e56cc .
+
+link:63beae01-0f0a-4247-85b5-e2ddf0b60a47 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.726064"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:67c8232f-4ed8-4ed7-affd-6f89e4ad95d3 .
+
+link:64dd6bd5-3759-46c3-a124-486c1d1d4f7b a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.869112"^^xsd:dateTime ;
+    ls:hasDocument index:fc519c79-b7fa-43a0-8941-390a32ef9355 .
+
+link:6655ef73-1224-4752-b41b-5aabc3b103ec a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.875789"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:be417281-b94a-4a8d-9582-7757bde0feaa .
+
+link:675babd2-a2d2-478f-a969-0ce3a7cba07a a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.883854"^^xsd:dateTime ;
+    ls:uri sib:NY0M62B9_Schaden .
+
+link:67c8232f-4ed8-4ed7-affd-6f89e4ad95d3 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.726064"^^xsd:dateTime ;
+    ls:uri sib:RE0VHE1G_Schaden .
+
+link:68b18fec-f5e5-4cca-a4c6-0d5554cc716a a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.915796"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:c8318e2d-2a27-4445-9c05-5d0074777811 .
+
+link:68e664cb-6764-4791-8836-681d2eca7900 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.942157"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:b8bf3173-2fdf-4f05-a43e-d4e26d820851 .
+
+link:6c3e144a-26d9-4efe-ad82-955eb4793432 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.736041"^^xsd:dateTime ;
+    ls:uri sib:NY0LO2H9_Schaden .
+
+link:6cad6295-638d-4884-b3b1-278cf7dbb085 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.666207"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:072c678b-6653-4f73-95df-2b0ce5145905 .
+
+link:6e862a70-044f-43f9-9ca5-ca97d0fa2161 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.781326"^^xsd:dateTime ;
+    ls:uri sib:NY0LZ32M_Schaden .
+
+link:71d4d49b-480a-4ceb-8573-e6a68035730b a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.439096"^^xsd:dateTime ;
+    ls:uri sib:NJ0OHUTB_Schaden .
+
+link:72aabff9-ab7f-44e4-a747-ccdc80092b81 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.943149"^^xsd:dateTime ;
+    ls:hasDocument index:8bd81177-bc76-4c58-8e4d-2409d511e090 .
+
+link:72bead6a-4771-4cbc-afc4-a98c4c5c5a2f a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.951136"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:ea22964b-0974-4e0a-8740-07a1732c0532 .
+
+link:740f34a9-bd9e-4f41-b8e5-7ad778cb7d6a a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.858266"^^xsd:dateTime ;
+    ls:uri sib:NY0M9P1L_Schaden .
+
+link:747d4ce9-7707-466f-93c0-d0ddb939b16b a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.977655"^^xsd:dateTime ;
+    ls:hasDocument index:9d2af372-148c-4f47-b79c-0cd60b6aa075 .
+
+link:749e2ddc-5bb5-4c4c-8fd7-10a18b704647 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.278714"^^xsd:dateTime ;
+    ls:hasDocument index:12f00dc8-234d-4252-a871-98a231f0dcb0 .
+
+link:755fe9f7-38a8-4765-ae2f-cdd597b46a61 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.681167"^^xsd:dateTime ;
+    ls:uri sib:RE0VD9YZ_Schaden .
+
+link:7754c5d2-5393-4eb7-accc-e1a71fbcd385 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.342184"^^xsd:dateTime ;
+    ls:hasDocument index:5458a077-23bc-461c-9b79-31ea32e89ee9 .
+
+link:78847679-d5df-483b-850f-93c023f55ad4 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.945139"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:839dce87-ea2a-4ebe-8068-63fc2419e0ac .
+
+link:7f0cf927-c73e-4507-aecd-f4cf068bc6e8 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.781326"^^xsd:dateTime ;
+    ls:hasDocument index:7bbdb4db-8f36-478d-8e91-c0336337b790 .
+
+link:7fb65696-d68f-4393-9262-26ec06af78ea a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.726064"^^xsd:dateTime ;
+    ls:hasDocument index:f6581a41-2eaf-48a2-9f25-e939311b151b .
+
+link:810e22ba-0d13-417a-beae-d9a6f68425d2 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.341187"^^xsd:dateTime ;
+    ls:uri sib:NJ0MEETK_Schaden .
+
+link:830010e7-72f1-4d44-b778-ea9b1c624318 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.795271"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:ed36d675-e0e2-442d-9e41-ca616802011b .
+
+link:839dce87-ea2a-4ebe-8068-63fc2419e0ac a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.945139"^^xsd:dateTime ;
+    ls:uri sib:VC0HAVTB_PruefungMitZustandsnote .
+
+link:85ea5f42-4005-4546-93c3-5bf21c1e6224 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.948397"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:3240a07c-e902-488d-8b81-e340f6bc8405 .
+
+link:89c930b4-6a76-4a0b-91c6-abc6b4fa423e a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.858266"^^xsd:dateTime ;
+    ls:hasDocument index:3f0ff5a3-2068-4348-bc54-31e63f3d7d0e .
+
+link:8a219e1a-733f-4e6c-b752-fa0869287c51 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.410210"^^xsd:dateTime ;
+    ls:uri sib:NJ0NV9I8_Schaden .
+
+link:8e48bde2-8bd1-40c9-a329-15a96b0d6fa5 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.939165"^^xsd:dateTime ;
+    ls:uri sib:VC0HAVTB_PruefungMitZustandsnote .
+
+link:927348ce-b3ce-4658-a668-249b28364a65 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.667205"^^xsd:dateTime ;
+    ls:hasDocument index:796bdc30-047f-4419-9c68-fd941e4a70af .
+
+link:9319559e-e76c-4071-83ca-d05153a87c4c a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.843745"^^xsd:dateTime ;
+    ls:uri sib:RE0VIMC3_Schaden .
+
+link:93d6a8b8-080c-4fe0-b7d4-ba04471afbf7 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.795271"^^xsd:dateTime ;
+    ls:hasDocument index:88d30d66-f43b-431e-9a8e-603c949c3a6a .
+
+link:97291d2e-01f2-4723-a841-f7b3c4f49b30 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.765734"^^xsd:dateTime ;
+    ls:uri sib:NY0LWS6G_Schaden .
+
+link:97894a1c-04bd-4e2a-b806-82d44924efa4 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.551526"^^xsd:dateTime ;
+    ls:hasDocument index:fa30baf0-b643-44f9-a9e2-87ee97f51fa6 .
+
+link:98997442-3506-4c9e-8b32-50a30b224972 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.937170"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:2584230a-3768-473a-93d2-cb3ef64dc8c1 .
+
+link:9a0f1a51-70d0-436f-8da2-40a96034efdf a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.931777"^^xsd:dateTime ;
+    ls:hasDocument index:072213e6-1c5b-4a90-ad45-85fd3cf96754 .
+
+link:9a68451b-bc37-46f3-a9e9-962a294ae086 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.962362"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:e1848f17-f7b3-470a-b111-70d9c0e036b4 .
+
+link:9bfc8856-0a79-4285-8715-8f307e305877 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.828321"^^xsd:dateTime ;
+    ls:hasDocument index:fbc01000-5f57-4162-bd49-bdfbc16d35ae .
+
+link:9f29b5d6-ad2f-48ed-9ecd-9094235235e4 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.396245"^^xsd:dateTime ;
+    ls:hasDocument index:624d698f-afcd-4e87-b3ca-7e90a5275fdb .
+
+link:a13e90d6-9c49-4967-8470-38cf36d11601 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.828321"^^xsd:dateTime ;
+    ls:uri sib:RE0VG6C9_Schaden .
+
+link:a23eaf8f-c604-44e3-9e09-74c62a8ecd4e a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.395276"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:ae4d351a-bb82-47bb-a93c-23997bcb096a .
+
+link:a2bab4c4-5a68-4636-a16e-8aad897d3859 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.504920"^^xsd:dateTime ;
+    ls:uri sib:1Y0ZUGRJ_Schaden .
+
+link:a2c4b173-fb1e-439c-b151-386a4062fce9 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.869112"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:c5235c53-ac42-4da7-9e12-72c2cf76d834 .
+
+link:a359ab43-0eca-473c-bc13-371b6c357b8a a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.811807"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:d23c66a2-048c-442b-abdd-59477989b053 .
+
+link:a3d554f6-7cbb-4549-8c72-f648762bed25 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.681167"^^xsd:dateTime ;
+    ls:hasDocument index:d2b8b504-e8b6-4b63-b9b1-6d5347988c98 .
+
+link:a636d524-cf07-4c1e-a3f3-5c1860828ca1 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.455066"^^xsd:dateTime ;
+    ls:hasDocument index:4525e0b2-1b26-4ce0-b284-0411d9e8ffff .
+
+link:aadd3d3b-795d-43d4-8548-ec4c83f13412 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.439096"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:71d4d49b-480a-4ceb-8573-e6a68035730b .
+
+link:aaf614b7-d7a2-49da-89a8-14142371efc2 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.388176"^^xsd:dateTime ;
+    ls:uri sib:NJ0MQUYL_Schaden .
+
+link:ab842cf0-31c8-4565-abeb-736f0e9b75f5 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.356295"^^xsd:dateTime ;
+    ls:uri sib:NJ0MNT5A_Schaden .
+
+link:ac7c5315-6ba5-450c-bb86-75efd0db1717 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.294638"^^xsd:dateTime ;
+    ls:hasDocument index:fce73f1d-4fb4-407c-a7a6-308b13dc7f97 .
+
+link:adee7f38-9b0a-4894-8821-2b62b76e0e97 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.949395"^^xsd:dateTime ;
+    ls:hasDocument index:283e2364-1854-4af0-ab79-c119019e8255 .
+
+link:ae4d351a-bb82-47bb-a93c-23997bcb096a a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.395276"^^xsd:dateTime ;
+    ls:uri sib:NJ0NRCTF_Schaden .
+
+link:aed2e361-94df-4e45-a4bc-bef4639a8e63 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.504920"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:a2bab4c4-5a68-4636-a16e-8aad897d3859 .
+
+link:b1ed08f5-d698-44c5-939e-b340b948f5fe a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.811807"^^xsd:dateTime ;
+    ls:hasDocument index:dd5352a5-456a-4281-859a-a231b61c8adc .
+
+link:b2f02d43-3a89-4da4-8d72-e3cc34850ec8 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.040899"^^xsd:dateTime ;
+    ls:uri sib:VC0YD96V_Schaden .
+
+link:b2f5b418-1028-4e98-8653-605507d99ee5 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.410210"^^xsd:dateTime ;
+    ls:hasDocument index:e2e629a9-b209-4add-b7b2-577da3a152b2 .
+
+link:b567240d-90f8-41d7-abc5-f47bfbb8f953 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.371223"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:41db8433-40f2-4659-80f4-42c63211f022 .
+
+link:b602a7e1-faae-4706-bb0d-73188f881046 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.899216"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:53b800e4-4557-4191-b673-aae670d2f8ad .
+
+link:b64a2565-706a-4ad9-98db-1cad870f9648 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.876786"^^xsd:dateTime ;
+    ls:hasDocument index:2f9ab4d5-cae5-42c1-8fca-4157d6cc391a .
+
+link:b7c23e9c-a2c7-4f58-85f6-d785a6ffc5a4 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.843745"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:9319559e-e76c-4071-83ca-d05153a87c4c .
+
+link:b8bf3173-2fdf-4f05-a43e-d4e26d820851 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.942157"^^xsd:dateTime ;
+    ls:uri sib:1Y0YMRPS_PruefungMitZustandsnote .
+
+link:b9a1e5cd-14c3-4ab0-9285-34e1932128bc a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.454074"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:01f6ec11-220f-400b-ae2a-b6b61d6e4cb9 .
+
+link:be417281-b94a-4a8d-9582-7757bde0feaa a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.875789"^^xsd:dateTime ;
+    ls:uri sib:RE0VQ7ZA_Schaden .
+
+link:c29be33d-a243-4f04-9b43-35a72546a815 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.550529"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:40c4c530-3ec4-477b-92c3-048f824835d3 .
+
+link:c4f7518e-9bcb-4a14-9f33-839d8755f9a9 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.495515"^^xsd:dateTime ;
+    ls:uri sib:280M4N2R_Schaden .
+
+link:c5235c53-ac42-4da7-9e12-72c2cf76d834 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.869112"^^xsd:dateTime ;
+    ls:uri sib:NY0LL67A_PruefungMitZustandsnote .
+
+link:c6989e00-07de-45a1-a2d5-9ad3a7527f45 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.900215"^^xsd:dateTime ;
+    ls:hasDocument index:2cfc7556-b68f-417d-be43-39693e2dd71b .
+
+link:c6aa8c48-6cd2-4840-9351-a226031b5146 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.765734"^^xsd:dateTime ;
+    ls:hasDocument index:db2a2991-5175-473e-be38-58ba2fca193d .
+
+link:c80815ac-d3bf-4efc-b955-ee899c009c1d a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.948132"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:1d584b16-e034-4308-9bf9-ff53bb0b91ef .
+
+link:c8318e2d-2a27-4445-9c05-5d0074777811 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.915796"^^xsd:dateTime ;
+    ls:uri sib:NY0ME1AH_Schaden .
+
+link:c8efc5ff-91ee-414f-b4de-1e1dba5ceabc a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.681167"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:755fe9f7-38a8-4765-ae2f-cdd597b46a61 .
+
+link:cb8d8dda-2516-4563-9edb-7558e7f01235 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.976657"^^xsd:dateTime ;
+    ls:uri sib:RE0WLOQS_Schaden .
+
+link:cc23a6fe-7c6e-4efd-ae0d-db96625cf084 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.372221"^^xsd:dateTime ;
+    ls:hasDocument index:7ceadd46-ae85-4e92-834e-2793431d2134 .
+
+link:d23c66a2-048c-442b-abdd-59477989b053 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.811807"^^xsd:dateTime ;
+    ls:uri sib:NY0MG56G_Schaden .
+
+link:d4783d11-87de-43dc-98e6-02252da63a5a a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.388176"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:aaf614b7-d7a2-49da-89a8-14142371efc2 .
+
+link:d933f2ed-97b8-46fc-b089-5c5e700a681c a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.440105"^^xsd:dateTime ;
+    ls:hasDocument index:62e35b8e-44fd-4b20-acbe-4420a3b433c7 .
+
+link:dc171ded-83b8-4985-9183-4f6d5534dfe9 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.962362"^^xsd:dateTime ;
+    ls:hasDocument index:d9acba4e-52c5-41e9-837a-c7d322564789 .
+
+link:de1db8d0-2896-46fd-a3df-1998cc574d3e a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.940163"^^xsd:dateTime ;
+    ls:hasDocument index:1353e24f-7135-4111-afa3-7dd0e7fdec4c .
+
+link:de5742e6-b4b9-4476-87e0-02f14af8fb18 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.325684"^^xsd:dateTime ;
+    ls:hasDocument index:99be0cdd-911a-4b79-ad4c-519700959245 .
+
+link:de5f9b55-7d2a-465b-b2cd-a2da6529a64d a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.409213"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:8a219e1a-733f-4e6c-b752-fa0869287c51 .
+
+link:e0bf8404-9bda-4f36-8005-d04e8ddfdb06 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.951136"^^xsd:dateTime ;
+    ls:hasDocument index:1900a3d5-80bc-4739-a3fa-4ee41e5692d5 .
+
+link:e1848f17-f7b3-470a-b111-70d9c0e036b4 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.962362"^^xsd:dateTime ;
+    ls:uri sib:RE0WGFHR_Schaden .
+
+link:e3e18be9-2ffc-417d-9a9e-09053de452da a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.828321"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:a13e90d6-9c49-4967-8470-38cf36d11601 .
+
+link:e662e60a-6f50-4045-9a31-62f796b22445 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.389190"^^xsd:dateTime ;
+    ls:hasDocument index:0960dad8-42ef-4554-871c-c3a8f2095466 .
+
+link:e669972c-0f58-4d51-984d-72c453d9228a a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.857269"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:740f34a9-bd9e-4f41-b8e5-7ad778cb7d6a .
+
+link:e914c958-34f6-4a81-8e67-3eeaa0a45be4 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.424697"^^xsd:dateTime ;
+    ls:hasDocument index:fdc5a3ed-0d6d-4ed3-9129-d557949380b1 .
+
+link:ea22964b-0974-4e0a-8740-07a1732c0532 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.951136"^^xsd:dateTime ;
+    ls:uri sib:VC0HAVTB_PruefungMitZustandsnote .
+
+link:eb5382fe-46d9-4b51-81a6-cea3f870b43e a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.495515"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:c4f7518e-9bcb-4a14-9f33-839d8755f9a9 .
+
+link:eb87fac3-12f9-4d02-bb0d-5ebd67edb6e6 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.310603"^^xsd:dateTime ;
+    ls:uri sib:NJ0LGWMH_Schaden .
+
+link:ed36d675-e0e2-442d-9e41-ca616802011b a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.795271"^^xsd:dateTime ;
+    ls:uri sib:NY0LXK3T_Schaden .
+
+link:edb3478f-dbc2-4d1f-8eaa-78112d49e1e6 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.694574"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:2ef03574-6439-479b-b89f-1aa3a5c3de46 .
+
+link:edef7c70-99ae-4cd5-aea3-a6a7bdb36a79 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.953118"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:2e8303ed-fc94-415c-a4ef-7915cefdc76d .
+
+link:f2b04294-e6ed-4c64-85e6-439520dd6847 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.424612"^^xsd:dateTime ;
+    ls:uri sib:NJ0OFOF0_Schaden .
+
+link:f36bfb44-c3a7-405c-be4b-18a355036ecb a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.341187"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:810e22ba-0d13-417a-beae-d9a6f68425d2 .
+
+link:f4094f00-ae2f-4d7c-9fcb-c42ba510e8e8 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.844857"^^xsd:dateTime ;
+    ls:hasDocument index:c2a0a4d4-8b08-442e-b992-b57b29fd794d .
+
+link:f7cb7dd6-0697-4f06-8611-8b5b226e56cc a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.294638"^^xsd:dateTime ;
+    ls:uri sib:NJ0KK4RI_Schaden .
+
+link:f92f9399-3040-4f57-bf04-d5fbf0809e75 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.883854"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:675babd2-a2d2-478f-a969-0ce3a7cba07a .
+
+link:fd00131d-664d-4160-bd97-3af1a0002fa5 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.954117"^^xsd:dateTime ;
+    ls:hasDocument index:69158ee0-beea-4be6-a67a-17a614dba018 .
+
+link:ff7dcb95-bc0b-4704-84d5-cfd35b18ff30 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.736041"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:6c3e144a-26d9-4efe-ad82-955eb4793432 .
+
+#hier neue Dokumentenlinks
+#Überbau link element + uri
+link:ff7dcb95-bc0b-4704-84d5-cfd35b85ff30 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.736041"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:6c3e144a-26d9-4efe-ad82-955eb4793474 .
+
+link:6c3e144a-26d9-4efe-ad82-955eb4793474 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.736041"^^xsd:dateTime ;
+    ls:uri sib:N_5236862_Ueberbau .
+
+# Plan LInk Element
+link:f4094f00-ae2f-4d7c-9fcb-c42ba510e800 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.844857"^^xsd:dateTime ;
+    ls:hasDocument index:f8159c28-15dd-4488-8e54-88098d821a86 .
+
+#Link
+link:85a96621-a571-4747-b3bd-9483c6351477 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.954117"^^xsd:dateTime ;
+    ls:hasLinkElement link:ff7dcb95-bc0b-4704-84d5-cfd35b85ff30,
+        link:f4094f00-ae2f-4d7c-9fcb-c42ba510e800 .
+
+#Links WiderlagerVorne + Dokumente
+
+link:ff7dcb95-bc0b-4704-84d5-cfd35b85ff62 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.736041"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:6c3e144a-26d9-4efe-ad82-955eb4793445 .
+
+link:6c3e144a-26d9-4efe-ad82-955eb4793445 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.736041"^^xsd:dateTime ;
+    ls:uri sib:N_2054140_Unterbau .
+
+# Plan LInk Element
+link:f4094f00-ae2f-4d7c-9fcb-c42ba510e826 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.844857"^^xsd:dateTime ;
+    ls:hasDocument index:b762e1d6-9479-4e64-a737-2e5886ad2c7e .
+
+link:85a96621-a571-4747-b3bd-9483c6351466 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.954117"^^xsd:dateTime ;
+    ls:hasLinkElement link:ff7dcb95-bc0b-4704-84d5-cfd35b85ff62,
+        link:f4094f00-ae2f-4d7c-9fcb-c42ba510e826 .
+
+#Links WiderlagerHinten + Dokumente
+
+link:ff7dcb95-bc0b-4704-84d5-cfd35b85ff22 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.736041"^^xsd:dateTime ;
+    ls:hasDocument index:cbe1348c-db99-43d1-8362-28e5ff5bfb4e ;
+    ls:hasIdentifier link:6c3e144a-26d9-4efe-ad82-955eb4793477 .
+
+link:6c3e144a-26d9-4efe-ad82-955eb4793477 a ls:URIBasedIdentifier ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.736041"^^xsd:dateTime ;
+    ls:uri sib:N_9744768_Unterbau .
+
+# Plan LInk Element
+link:f4094f00-ae2f-4d7c-9fcb-c42ba510e852 a ls:LinkElement ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:12.844857"^^xsd:dateTime ;
+    ls:hasDocument index:7bdc0176-1fed-48fd-b8a1-d112cba233ab .
+
+link:85a96621-a571-4747-b3bd-9483c6351484 a ls:BinaryLink ;
+    ct:createdBy index:9c89771a-406c-4a81-aaa5-d136653ffe37 ;
+    ct:creationDate "2022-08-02T14:28:13.954117"^^xsd:dateTime ;
+    ls:hasLinkElement link:ff7dcb95-bc0b-4704-84d5-cfd35b85ff22,
+        link:f4094f00-ae2f-4d7c-9fcb-c42ba510e852 .

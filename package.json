@@ -1,0 +1,38 @@
+{
+  "name": "linkeddataviewer",
+  "version": "0.0.1",
+  "description": "Linked Data Viewer ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "update-ifcjs": "npm i web-ifc-three@latest && npm i && copy-wasm",
+    "copy-wasm": "cpy node_modules/web-ifc/web-ifc.wasm . && cpy node_modules/web-ifc/web-ifc-mt.wasm ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnneGoebels/LinkedDataViewer.git"
+  },
+  "author": "Anne Göbels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnneGoebels/LinkedDataViewer/issues"
+  },
+  "homepage": "https://github.com/AnneGoebels/LinkedDataViewer#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/three": "^0.141.0",
+    "rollup": "^2.77.0"
+  },
+  "dependencies": {
+    "examples": "^0.1.0",
+    "gsap": "^3.10.4",
+    "rdflib": "^2.2.19",
+    "stats.js": "^0.17.0",
+    "three": "^0.142.0",
+    "three-mesh-bvh": "^0.5.14",
+    "web-ifc-three": "0.0.118",
+    "web-ifc-viewer": "^1.0.207"
+  }
+}
