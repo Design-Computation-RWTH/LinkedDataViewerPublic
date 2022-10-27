@@ -109,12 +109,10 @@ viewer.IFC.setWasmPath("/LinkedDataViewerPublic/wasm/");
 viewer.axes.setAxes();
 viewer.grid.setGrid();
 viewer.context.renderer.postProduction.active = true;
-//viewer.IFC.selector.selection.material = selectionMaterial;
-//viewer.IFC.selector.preselection.material = preselectionMaterial;
 viewer.clipper.active = true;
 
 container.onmousemove = () => viewer.IFC.selector.prePickIfcItem();
-container.onclick = () => viewer.IFC.selector.pickIfcItem(false);
+container.onclick = () => viewer.IFC.selector.pickIfcItem(true);
 
 const scene = viewer.context.getScene()
 

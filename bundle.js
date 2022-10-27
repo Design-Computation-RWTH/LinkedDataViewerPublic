@@ -100354,8 +100354,8 @@ class IfcSelector {
         this.context = context;
         this.ifc = ifc;
         this.userDataField = 'ifcjsFadedModel';
-        this.defSelectMat = this.initializeDefMaterial(0xff33ff, 0.3);
-        this.defPreselectMat = this.initializeDefMaterial(0xff55ff, 0.5);
+        this.defSelectMat = this.initializeDefMaterial(0x41a6d0, 0.3);
+        this.defPreselectMat = this.initializeDefMaterial(0x41a6d0, 0.5);
         this.defHighlightMat = this.initializeDefMaterial(0xeeeeee, 0.05);
         this.preselection = new IfcSelection(context, this.ifc.loader, this.defPreselectMat);
         this.preselection.fastRemovePrevious = true;
@@ -123748,12 +123748,10 @@ viewer.IFC.setWasmPath("/LinkedDataViewerPublic/wasm/");
 viewer.axes.setAxes();
 viewer.grid.setGrid();
 viewer.context.renderer.postProduction.active = true;
-//viewer.IFC.selector.selection.material = selectionMaterial;
-//viewer.IFC.selector.preselection.material = preselectionMaterial;
 viewer.clipper.active = true;
 
 container.onmousemove = () => viewer.IFC.selector.prePickIfcItem();
-container.onclick = () => viewer.IFC.selector.pickIfcItem(false);
+container.onclick = () => viewer.IFC.selector.pickIfcItem(true);
 
 const scene = viewer.context.getScene();
 
