@@ -11,7 +11,7 @@ import {
 } from "./rdfquery.js";
 import {createSubsetofDamage, getExpressId} from "./ifcFunc.js";
 
-const rawProperties = await fetch('static/aoiIfcProperties.json');
+const rawProperties = await fetch('/LinkedDataViewerPublic/static/aoiIfcProperties.json');
 const aoiproperties = await rawProperties.json();
 
 export function openTab(ele, tabname) {

@@ -122664,7 +122664,7 @@ function hideSite (bridgemodel,bridgeproperties, viewer){
     });
 }
 
-const rawProperties = await fetch('static/aoiIfcProperties.json');
+const rawProperties = await fetch('/LinkedDataViewerPublic/static/aoiIfcProperties.json');
 const aoiproperties = await rawProperties.json();
 
 function openTab(ele, tabname) {
@@ -123744,7 +123744,7 @@ const container = document.getElementById('three-canvas');
 const loadingElem = document.getElementById('loader-container');
 const viewer = new IfcViewerAPI({ container, backgroundColor: new Color(0xffffff) });
 
-viewer.IFC.setWasmPath("https://github.com/Design-Computation-RWTH/LinkedDataViewerPublic/blob/09b36efb07340eee2a600d43659b3edbc664be97/wasm/");
+viewer.IFC.setWasmPath("/LinkedDataViewerPublic/wasm/");
 viewer.axes.setAxes();
 viewer.grid.setGrid();
 viewer.context.renderer.postProduction.active = true;
@@ -123762,7 +123762,7 @@ await viewer.IFC.loader.ifcManager.applyWebIfcConfig({
  USE_FAST_BOOLS: true
                    });
 
-const bridgemodel = await loadmodel("ICDD_TwinGenDemo_anonym/Payload Documents/Models/IfcBridgeConverted_materials.ifc");
+const bridgemodel = await loadmodel("/LinkedDataViewerPublic/ICDD_TwinGenDemo_anonym/Payload Documents/Models/IfcBridgeConverted_materials.ifc");
 
 
 let aoimodel;
@@ -123780,10 +123780,10 @@ if (bridgemodel) {
     unclickModel(viewer, aoimodel);
 }
 
-const rawifcProperties = await fetch('static/IfcProperties.json');
+const rawifcProperties = await fetch('/LinkedDataViewerPublic/static/IfcProperties.json');
 const bridgeproperties = await rawifcProperties.json();
 
-const rawPointProperties = await fetch('static/pointIfcProperties.json');
+const rawPointProperties = await fetch('/LinkedDataViewerPublic/static/pointIfcProperties.json');
 const pointproperties = await rawPointProperties.json();
 
 createSideTabs();
