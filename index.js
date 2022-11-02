@@ -211,6 +211,7 @@ async function editDamagePointInfos (PrufJahr, hide, analyze){
     for (let preview of allpreviews){
         if (hide === true){
             preview.classList.add("collapsed")
+            preview.classList.remove("selectable")
         }
         else{
             preview.classList.add("nonselectable")
@@ -237,6 +238,7 @@ async function editDamagePointInfos (PrufJahr, hide, analyze){
                 div.classList.remove("analyzeColorRed")
                 if (analyze === true){
                     const ratingRes = await damageRatings(yearDam)
+                    console.log(ratingRes)
                     const ratingArr = []
                     for(let ratingType in ratingRes["results"]["bindings"]["0"]){
                         const ratingTypeObj = ratingRes["results"]["bindings"]["0"][ratingType]
@@ -248,6 +250,7 @@ async function editDamagePointInfos (PrufJahr, hide, analyze){
                         if(ratingArr[i] === "0")
                             countzeros++;
                     }
+                    console.log(countzeros)
                     if(countzeros === 3){
                         preview.classList.add("analyzeColorGreen")
                      }
@@ -258,7 +261,7 @@ async function editDamagePointInfos (PrufJahr, hide, analyze){
                         preview.classList.add("analyzeColorRed")
                      }
                     }
-                else {
+                else{
                     div.classList.add("selectable")
                 }
                 div.onclick =async() => {
@@ -360,4 +363,45 @@ analyzetoggle.checked = false
 analyzetoggle.onchange = () =>{
    console.log(analyzetoggle.checked)
    editDamagePointInfos(Jahr, hidecheck.checked, analyzetoggle.checked )
+}
+
+const header = document.getElementsByTagName("header")
+
+const helpbutton = document.createElement("button")
+helpbutton.id = "helpbutton"
+header[0].appendChild(helpbutton)
+const helpbuttonicon = document.createElement("i")
+helpbuttonicon.classList.add("material-symbols-outlined")
+helpbuttonicon.textContent = "question_mark"
+helpbutton.appendChild(helpbuttonicon)
+
+helpbutton.onmouseover = () => {
+    const othertext = document.getElementsByClassName("infotext")
+    for (let i of othertext) {
+        i.style.display="none"
+    }
+    const helptext = document.getElementById("helptext")
+    console.log(helptext)
+    helptext.style.display="block"
+}
+
+helpbutton.onmouseleave = () => {
+    const helptext = document.getElementById("helptext")
+    helptext.style.display="none"
+}
+
+const contactbutton = document.createElement("button")
+contactbutton.id = "contact"
+header[0].appendChild(contactbutton)
+const contactbuttonicon = document.createElement("i")
+contactbuttonicon.classList.add("material-symbols-outlined")
+contactbuttonicon.textContent = "person"
+contactbutton.appendChild(contactbuttonicon)
+
+contactbutton.onmouseover = ()=> {
+    const contactinfo = document.getElementById("contactinfo");
+    contactinfo.style.display="block";
+    contactinfo.onmouseleave = () =>{
+        contactinfo.style.display="none"
+    }
 }
