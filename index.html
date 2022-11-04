@@ -104,20 +104,24 @@
         #creator {
             position: absolute;
             bottom: 0;
-            right:23rem;
-            padding: 5px;
+            left:9rem;
             font-size: 0.8em;
             color:#999;
-            text-align: right;
+            padding: 10px;
+            text-align: left;
         }
-        #funding {
+        #funding img {
             position: absolute;
-            bottom: 0;
+            bottom: 0.5rem;
             right: 0;
-            padding: 5px;
-            font-size: 0.8em;
-            color:#999;
-            text-align: right;
+            height:5rem;
+        }
+        #autobahn img{
+            position: absolute;
+            bottom: 0.2rem;
+            right: 6rem;
+            height:5rem;
+            opacity: 0.9;
         }
         #attribution, #attribution a {
             color: #999;
@@ -165,10 +169,13 @@
         Protected by <a href="https://www.maxlaumeister.com/pagecrypt/">PageCrypt</a>
     </div>
     <div id="creator">
-        Created by <b>Anne Göbels</b>  |
+        | Created by <b>Anne Göbels</b>
     </div>
      <div id="funding">
-        Gefördert durch: Ministerium  für Digitales und Verkehr (BMDV)
+         <img src="static/bmvd_gross.svg" alt="Logo BMVD">
+    </div>
+    <div id="autobahn">
+         <img src="static/suedbayern_text.svg" alt="Logo Autobahn GmbH">
     </div>
     <script>
     (function() {
