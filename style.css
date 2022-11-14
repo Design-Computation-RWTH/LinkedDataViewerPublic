@@ -937,3 +937,29 @@ input:checked + .toggle:before {
 #contactinfo i{
     font-size: 25pt;
 }
+
+#creator {
+    position: absolute;
+    bottom: 0;
+    left:0rem;
+    font-size: 0.8em;
+    color:#999;
+    padding: 10px;
+    text-align: left;
+    z-index:100;
+}
+#funding img {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0;
+    height:5rem;
+    z-index:100;
+}
+#autobahn img{
+    position: absolute;
+    bottom: 0.2rem;
+    right: 6rem;
+    height:5rem;
+    opacity: 0.9;
+    z-index:100;
+}
